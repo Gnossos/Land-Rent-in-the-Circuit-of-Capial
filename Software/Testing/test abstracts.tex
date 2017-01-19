@@ -1,0 +1,31 @@
+\documentclass[]{memoir}
+
+%opening
+\title{Testing abstract environments}
+\author{Marsh Feldman}
+
+\begin{document}
+\mainmatter
+\abstractname{Summary}
+
+\maketitle
+
+Now here is some text. 
+\begin{abstract}
+First abstract.
+
+\end{abstract}
+
+Some more text.
+\abstractname{Summary}
+
+\renewcommand{\abstractname}{Summary}
+\begin{abstract}
+Second abstract.
+
+\end{abstract}
+
+
+
+
+\end{document}

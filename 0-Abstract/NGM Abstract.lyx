@@ -1,0 +1,262 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\include{preamble}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt,latin9,utf8
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Contemporary economic geography neglects both macroeconomics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peck_2016_Macroeconomic"
+
+\end_inset
+
+ and ground rent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2016forreal,park2014landrent"
+
+\end_inset
+
+.
+ Consequently, although ground rent is central to economic geography and
+ played a major role in the current crisis, economic geography has contributed
+ remarkably little to our understanding of the macroeconomics of the crisis
+ or to policies dealing it.
+\end_layout
+
+\begin_layout Abstract
+This paper addresses these concerns by combining ground rent and recent
+ heterodox macroeconomic theory, especially the 
+\begin_inset Quotes eld
+\end_inset
+
+second-generation
+\begin_inset Quotes erd
+\end_inset
+
+ synthesis of Marxian, Keynesian, and institutionalist political economy
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Goldstein_2009_Heterodox"
+
+\end_inset
+
+; also see 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "godley2012monetary"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "keen2011adynamic"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "keen2013amonetary"
+
+\end_inset
+
+).
+ Previous work on ground rent mostly focuses on mechanisms, actors, and
+ institutions involved in its extraction and distribution, but this paper
+ focuses on its macroeconomics.
+\end_layout
+
+\begin_layout Abstract
+The paper begins by discussing heterodox economics and economic geography,
+ methodology, value, and rent.
+ Then it develops a series of abductive simulation models incrementally,
+ adding elements from heterodox macroeconomics and ground-rent theory.
+ Starting with Marx's circuit of capital, the models add post-Keynesian
+ and institutionalist features and employ twenty-first century innovations,
+ such as dynamic disequilibrium models 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "foley2013profitrates"
+
+\end_inset
+
+and temporal single system interpretations of value 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "freeman2010trendsin"
+
+\end_inset
+
+.
+ The paper's goal is to better integrate geographical political economy
+ and heterodox economics, to open new avenues for research, and to break
+ the impasse that has blocked rent theory since the 1990s.
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,5 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[1] Config.pm:357> INFO - Logfile is 'WME titling thanks.blg'
+[178] biber-darwin:303> INFO - === Fri Jan 13, 2017, 18:01:08
+[467] Utils.pm:180> ERROR - Cannot find control file 'WME titling thanks.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[468] Biber.pm:113> INFO - ERRORS: 1

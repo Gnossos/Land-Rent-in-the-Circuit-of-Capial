@@ -1,0 +1,5 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'posttitle MWE.blg'
+[116] biber-darwin:303> INFO - === Sat Jan 14, 2017, 08:45:00
+[357] Utils.pm:180> ERROR - Cannot find control file 'posttitle MWE.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[357] Biber.pm:113> INFO - ERRORS: 1

@@ -1,0 +1,2114 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[utf8]{inputenc}
+
+% My Memoir customizations
+\usepackage[noFPauthor]{myMemoir}% See myMemoir for other options
+\author{\myName}
+
+% Customizations for this article
+\title{Ground Rent in the Circuit of Capital}
+\subtitle{Some Stock-Flow Consistent Models Combining Heterodox Economics and Geographical Political Geography}
+\date{\today}% Change to an actual date if you wish
+\acknowledge{Thanks to Antoine Godin, Russell Standish, and Steve Keen for helping me use the software packages they developed, including at times revising the software to better meet my needs.}
+
+% Revision information.
+\revstring{Ver. 1.0, initial version (08/23/2016)}
+
+% Redefine (Memoir's & Epigraph package) epigraph width
+%	This is set in myMemoir, but you can reset it here.
+\setlength{\epigraphwidth}{.65\linewidth}
+
+% Bibliography stuff
+\addbibresource{References.bib}
+
+% Bibliography Options (I can't get bookseries to work)
+\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,compresspages}
+%\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,bookseries=false,compresspages}
+
+% Cosmetics
+\setbeforesecskip{-2em}
+\setbeforesubsecskip{-2em}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language american
+\language_package auto
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Title goes here"
+\pdf_author "Marshall M. A. Feldman"
+\pdf_subject "Summary of the subject"
+\pdf_keywords "spatiality, geography, planning, Edward W. Soja, UCLA"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Epigraph
+\SpecialChar ldots
+ houses were generally built to order and the payments made in installments
+ to the contractor as certain stages of the building were being completed.
+ Very little was built on speculation.
+ \SpecialChar ldots
+In the last forty years all that has changed.
+ Very little is now built to order.
+ Anyone wanting a new house picks one from among those built on speculation
+ or still in process of construction.
+ The builder no longer works for his customers but for the market.
+ \SpecialChar ldots
+ Without speculative building, and on a large scale at that, no contractor
+ can get along today.
+ The profit from just building is extremely small.
+ His main profit comes from raising the ground-rent, from careful selection
+ and skilled 
+\lang british
+utilisation
+\lang american
+ of the building terrain.
+ \SpecialChar ldots
+ The execution of enterprises requiring working periods of considerable
+ length and operations on a large scale does not fall fully within the province
+ of capitalist production until the concentration of capital becomes very
+ pronounced, and the development expedient of advancing and thus risking
+ other people's capital instead of his own.
+ 
+\begin_inset Argument post:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+after "234"
+key "marx1967capital"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+OnehalfSpacing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Three concerns motivate this paper.
+ Most generally, since the 1980s heterodox economics, on one hand, and geographi
+c political economy and critical urban studies, on the other, have become
+ increasingly separate.
+ Today the two fields of study are almost completely isolated from and ignorant
+ of developments in the other, even though they share important characteristics
+ and have many potential synergies.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sheppard2011geographical"
+
+\end_inset
+
+ popularized the term 
+\begin_inset Quotes eld
+\end_inset
+
+geographical political economy.
+\begin_inset Quotes erd
+\end_inset
+
+ For various reasons, some of which will become evident below, this is not
+ coextensive with critical urban studies, although the two have some overlap.
+ With this caveat and for brevity's sake, henceforth I use only 
+\begin_inset Quotes eld
+\end_inset
+
+geographical political economy
+\begin_inset Quotes erd
+\end_inset
+
+ to refer to the two categories of scholarship.
+\end_layout
+
+\begin_layout Plain Layout
+For expository purposes I also occasionally use shorthand terms like 
+\begin_inset Quotes eld
+\end_inset
+
+economists,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+economics,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+geographers,
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+geography
+\begin_inset Quotes erd
+\end_inset
+
+ to refer to the two separated camps, even though most economists are not
+ heterodox and many scholars in geographical political economy and in critical
+ urban studies formally are not in geography but come from such cognate
+ disciplines as urban planning, public policy, sociology, political science,
+ history, etc.
+\end_layout
+
+\end_inset
+
+ Second, on both sides of this divide 
+\emph on
+rent
+\emph default
+ in general and ground rent in particular have been neglected, despite its
+ incontestable relevance both to current theoretical concerns and to political-e
+conomic events and issues 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hudson_incorporating_2012,ward2016virtual"
+
+\end_inset
+
+.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hudson_incorporating_2012"
+
+\end_inset
+
+define 
+\begin_inset Quotes eld
+\end_inset
+
+rentiers
+\begin_inset Quotes erd
+\end_inset
+
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+those who benefit from control over assets that the economy needs to function
+\begin_inset Quotes erd
+\end_inset
+
+ and therefore 
+\begin_inset Quotes eld
+\end_inset
+
+rents
+\begin_inset Quotes erd
+\end_inset
+
+ are typically 
+\begin_inset Quotes eld
+\end_inset
+
+revenues from ownership.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ward2016virtual"
+
+\end_inset
+
+further distinguish between 
+\begin_inset Quotes eld
+\end_inset
+
+land rent
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+ground rent.
+\begin_inset Quotes erd
+\end_inset
+
+ In a payment to a landlord for use of a parcel of land, 
+\begin_inset Quotes eld
+\end_inset
+
+land rent
+\begin_inset Quotes erd
+\end_inset
+
+ is payment for use of both the land and all improvements to it, and
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haila1988landas"
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+ground rent
+\begin_inset Quotes erd
+\end_inset
+
+ is the part only for use of the land itself.
+ Although the literature does not universally make this distinction, and
+ 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "ward2016virtual"
+
+\end_inset
+
+ use the terms interchangeably, I will generally use 
+\begin_inset Quotes eld
+\end_inset
+
+ground rent
+\begin_inset Quotes erd
+\end_inset
+
+ here.
+\end_layout
+
+\begin_layout Plain Layout
+Historically, 
+\begin_inset Quotes eld
+\end_inset
+
+ground rent
+\begin_inset Quotes erd
+\end_inset
+
+ itself has been used in two different senses.
+ One is as a 
+\emph on
+flow
+\emph default
+ of benefits during a certain time period, and the other is as a 
+\emph on
+stock
+\emph default
+ of benefits at one point in time.
+ Under capitalism these benefits are usually monetary and take the form
+ of either rental payments or the market value of land as an asset.
+ Here I use 
+\begin_inset Quotes eld
+\end_inset
+
+ground rent
+\begin_inset Quotes erd
+\end_inset
+
+ in both senses, with the particular usage being either unimportant or dependent
+ on context.
+\end_layout
+
+\begin_layout Plain Layout
+The connection between ground rent as a flow and stock is made by making
+ the market value of land at a point in time a function of the perceived
+ present value of an expected benefit stream discounted at some socially
+ determined rate.
+ This does not mean actual land values are inherently equal to actual streams
+ of benefits capitalized at some rational market discount rate.
+ Instead, if the world is non-ergodic, past experience cannot be used to
+ predict the future reliably and certain economic decisions, such as land
+ valuation, are always made under conditions of 
+\begin_inset Quotes eld
+\end_inset
+
+true uncertainty
+\begin_inset Quotes erd
+\end_inset
+
+ [also sometimes called 
+\begin_inset Quotes eld
+\end_inset
+
+Keynesian uncertainty
+\begin_inset Quotes erd
+\end_inset
+
+] 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ferrari-filho2005theconcept"
+
+\end_inset
+
+.
+ In this sense, land markets are always speculative.
+\end_layout
+
+\end_inset
+
+ Finally, explicit consideration of ground rent is completely absent from
+ in the burgeoning literature on Marx's circuit of capital, as well as almost
+ all related heterodox studies of macroeconomic flows.
+ Conversely, over the past thirty-five years, explicit consideration of
+ the heterodox literature on macroeconomic flows has gone missing from the
+ literature on ground rent, and from geographical political economy in general.
+ The paper discusses these three concerns more extensively below.
+\end_layout
+
+\begin_layout Standard
+The paper addresses them by introducing ground rent into models of Marx's
+ theory of the circuit of capital.
+ In doing so, it seeks to partly bridge the gap between heterodox economics
+ and geographic political economy.
+ Completely overcoming this gap in the space here is impossible, but I hope
+ to convince heterodox economists that ground rent and its geography are
+ highly relevant to economists' interests in understanding capitalism's
+ macroeconomic dynamics, and simultaneously I hope to convince critical
+ geographers that the economists' models and theories are highly relevant
+ to the geographers' interest in understanding what 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "harvey1978theurban"
+
+\end_inset
+
+ called 
+\begin_inset Quotes eld
+\end_inset
+
+the urban process.
+\begin_inset Quotes erd
+\end_inset
+
+ The end result should be greater attention to land rent and greater integration
+ of the literatures from both sides of the gap.
+\end_layout
+
+\begin_layout Standard
+To achieve these goals, the paper makes a number of concessions in both
+ substantive content and manner of exposition.
+ The most important one is its focus a series of simulation models, incrementall
+y moving from a simple, elementary one to more complex and sophisticated
+ ones.
+ Economists often just present fully elaborated models, and this would be
+ sufficient if my sole purpose were just to examine the relevance of rent.
+ But since geographers are likely to be unfamiliar with both the modeling
+ techniques and much of the models' substantive content, I present several
+ models, with successive ones introducing additional concepts (such as endogenou
+s money) and techniques.
+ The paper also deemphasizes explicit mathematics, both because some readers
+ are unlikely to have appropriate mathematical backgrounds, and may therefore
+ first need to be convinced of the value of mastering the math, and because
+ more complex models cannot be solved analytically anyway and must rely
+ on simulations.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Keen ?? points out that even most economists do not have training in the
+ appropriate mathematical techniques.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Look up where Keen says economists lack math
+\end_layout
+
+\end_inset
+
+ Furthermore, the paper starts out using difference equations if for no
+ other reason than the math only requires elementary algebra.
+ More detailed description of the equations used in the model can be found
+ in the appendices.
+\end_layout
+
+\begin_layout Standard
+Another concession is the paper's attention to foundational, at times elementary
+, material from both heterodox economics and geographical political economy.
+ Readers familiar with such themes may skip the corresponding sections.
+ But beware! In places I introduce my own critical comments on contemporary
+ debates and received conventional wisdom.
+ For example, I debunk the widely held belief that the supply of land is
+ fixed.
+ I hope readers will tolerate me at times covering ground that for them
+ may be old hat, understanding that I do so to bring other readers up to
+ speed.
+\end_layout
+
+\begin_layout Standard
+The paper is organized as follows.
+ It starts by discussing in more depth the three concerns mentioned above.
+ In doing so, it supports the assertion that these concerns are valid, introduce
+s relevant literature, and begins to argue for the relevance of this research.
+ The next section addresses assorted background issues, such as the role
+ of simulation modeling in critical political economy.
+ This section is necessary both to clarify the purpose of this research
+ and to avoid misunderstandings.
+ As readers will see, with a few notable exceptions, heterodox economists
+ ignore ground rent today.
+ Meanwhile, the relatively small group of geographers concerned with ground
+ rent is disorganized and fragmented.
+ Many in this group have adopted interpretive and narrative modes of research,
+ while some others disregard metatheoretical, and even theoretical, consideratio
+ns in favor of diving into empirical research.
+ Consequently, a number of likely misunderstandings of the present paper
+ loom large.
+ Examples of this include the temptation and possibility of knee-jerk reactions
+ labeling all quantitative modeling as positivist, interpreting such quantitativ
+e research as an alternative to qualitative research rather than as a 
+\emph on
+necessary
+\emph default
+ complement to it, or misreading contemporary research on ground rent as
+ purely ideographic.
+ The section on background issues aims to prevent such misunderstandings,
+ as well as to introduce basic concepts – such as stock-flow consistent
+ modeling – that may be unfamiliar to various readers.
+ The next several sections present increasingly complex models of the circuit
+ of capital, with each successive one modifying the modeling technique,
+ adding economic elements, and/or introducing more nuanced versions of ground
+ rent.
+ Respectively, examples of such modifications include moving from difference
+ equations to differential equations, adding endogenous money to a model,
+ and introducing differential rent to a model already containing absolute
+ rent.
+ Because of their pedagogic and demonstrative purpose, each of these models
+ starts from an existing model reported in the literature, adds ground rent
+ to the model, and then compares the model's behavior with and without ground
+ rent.
+ The concluding section summarizes these findings, points to areas for further
+ research, and restates the case for bridging the gap between heterodox
+ economics and geographic political economy, with tighter integration and
+ attention to ground rent in particular.
+ The appendices that follow provide more detailed discussions of the computer
+ programs and mathematics used in the models.
+ 
+\end_layout
+
+\begin_layout Section
+Concerns: isolation, neglect, exclusion
+\end_layout
+
+\begin_layout Standard
+As mentioned above, three concerns motivate this paper: (1) the isolation
+ of heterodox economics and geographical political economy from each other,
+ (2) the neglect of land rent on both sides of this gap, and (3) exclusion
+ of ground rent from the heterodox economics literature on the circuit of
+ capital and, conversely, the almost complete exclusion of the advances
+ heterodox economics has made in studying the circuit of capital from the
+ literature on ground rent in geographical political economy.
+ This section discusses all three in more detail.
+\end_layout
+
+\begin_layout Subsection
+Isolation
+\end_layout
+
+\begin_layout Standard
+Despite considerable commonality, a remarkable gulf separates heterodox
+ economics and geographical political economy today.
+ One can see it in how the two fields not only almost completely ignore
+ the other but actually seem oblivious to the other's existence, even where
+ their concerns seem closest.
+ 
+\lang english
+For example, a recent review of 
+\begin_inset Quotes eld
+\end_inset
+
+geographies of money and finance
+\begin_inset Quotes erd
+\end_inset
+
+ focusing on 
+\begin_inset Quotes eld
+\end_inset
+
+financial circuits and the ‘real’ economy
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hall_geographies_2013"
+
+\end_inset
+
+ cites no recognizable economists of any sort, while the closest it gets
+ to recognizable economics journals are 
+\emph on
+The Economist
+\emph default
+ and 
+\emph on
+Financial Times
+\emph default
+.
+ On the other side, in the aftermath of the 2007 global financial crisis,
+ an edited collection claiming to provide 
+\begin_inset Quotes eld
+\end_inset
+
+the foundation for understanding the structural and deep-seated nature of
+ current macroeconomic events
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldstein_heterodox_2009"
+
+\end_inset
+
+ has an index devoid of any entries for 
+\begin_inset Quotes eld
+\end_inset
+
+built environment,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+capital switching,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+circuits of capital,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+cities,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+geography,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+space,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+spatial,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+housing,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+rent,
+\begin_inset Quotes erd
+\end_inset
+
+ and similar terms commonly used by accounts of the crisis in geographic
+ political economy.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Do these things: (1) figure out why this stuff is being underlined and fix
+ it, (2) check the original text to make sure housing & rent are gone, (3)
+ cite 1-2 geography books on the crisis.
+\end_layout
+
+\end_inset
+
+ Similarly, a review of heterodox explanations of the crisis 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dumenil_crisis_2011"
+
+\end_inset
+
+follows Marx by distinguishing between labor and capital, between finance
+ capital and productive capital, and between interest and profit; but despite
+ the fact that house-price inflation fueled the crisis and land, as a non-reprod
+ucible asset, is the prime candidate for house-price inflation through ground-re
+nt capitalization, the review does not even mention what Marx considered
+ the third major class of modern capitalism: landlords, and their distinct
+ source of revenue, ground rent.
+\end_layout
+
+\begin_layout Standard
+xxx
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+A remarkable gulf separates heterodox economics and geographical political
+ economy today.
+ But this was not always the case.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Geographical political economy originated during the 1970's and early 1980's,
+ as urban and economic geography underwent a radical transformation.
+ They increasingly rejected 
+\begin_inset Quotes eld
+\end_inset
+
+spatial science
+\begin_inset Quotes erd
+\end_inset
+
+ rooted in neoclassical economics.
+ Instead, geographers began to employ variants of heterodox economics in
+ their research 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sheppard2011geographical"
+
+\end_inset
+
+.
+ The most influential heterodox varieties included Marxist, (both old and
+ new) institutionalist, Keynesian, and neo-Ricardian approaches.
+ In contrast to neoclassical economics, with its methodological individualism
+ and consequent microeconomic focus on individual behavior, these heterodox
+ approaches emphasize societal structures, social relations, and institutions,
+ and as such they encourage a more macroeconomic form of analysis.
+ David Harvey's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "harvey1978theurban,harvey2006thelimits"
+
+\end_inset
+
+ work was extraordinarily seminal in this transformation, inspiring entirely
+ new areas of urban and economic geography, such as the geography of money
+ and finance 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "leyshon_limits_2004"
+
+\end_inset
+
+ or the rhythms of capital investment in city building 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2011revisiting,king_capital_1989"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+As for heterodox economists, particularly in the U.S.
+ a small-but-prominent group of heterodox economists – including such scholars
+ as Ann Markusen, Barry Bluestone, Matthew Edel, Bennett Harrison, and David
+ Gordon – brought heterodox economic theory to bear on the concerns of urban
+ and economic geography.
+ In the process, they transformed heterodox economic analysis itself by
+ making urban and spatial dimensions fundamental components.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+This process seems to have been strongest in the the U.S.
+ and France.
+ Geographic and urban concerns seem never to have made comparable impacts
+ elsewhere.
+ Labor market segmentation is an excellent example of a body of theoretical
+ and empirical research that originated in heterodox economics 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "edwards_labor_1976"
+
+\end_inset
+
+, became prominent in geographical political economy 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "peck_work-place:_1996"
+
+\end_inset
+
+, with geography then becoming increasingly prominent in heterodox economic
+ research 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "allegretto_credible_2013"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+But in the following decades heterodox economics and critical urban and
+ economic geography drifted apart.
+ No doubt, this was partly due to the disappearance of 
+\begin_inset Quotes eld
+\end_inset
+
+the urban crisis
+\begin_inset Quotes erd
+\end_inset
+
+ as a subject of public concern after neoliberalism became firmly entrenched
+ after the Reagan and Thatcher years 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "drier_struggle_2013"
+
+\end_inset
+
+.
+ Economists especially no longer had much stake in addressing 
+\begin_inset Quotes eld
+\end_inset
+
+urban problems,
+\begin_inset Quotes erd
+\end_inset
+
+ while geographers had hitched their horses so tightly to this nexus of
+ concerns that they could not easily leave it behind.
+ Nonetheless, within mainstream economics a small subfield of urban and
+ regional economics, firmly rooted in neoclassical economics and 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "alonso_location_1964"
+
+\end_inset
+
+'s pioneering work, survived.
+ Krugman's 
+\begin_inset Quotes eld
+\end_inset
+
+new trade theory
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_geography_1991"
+
+\end_inset
+
+ integrated explicit geographical claims and helped launch the 
+\begin_inset Quotes eld
+\end_inset
+
+new economic geography
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "krugman_whats_1998"
+
+\end_inset
+
+, and the prestige of his subsequent receipt of the 2008 Nobel Memorial
+ Price in Economic Sciences, in which this work figured prominently, ensured
+ urban and regional economic a place within mainstream economics.
+ But unfortunately there was nothing like this within heterodox economics,
+ which seemingly completely lost interest in urban and geographical concerns.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Meanwhile, geographical political economy found other fish to fry.
+ Discussing the state of research on land rent in 1990, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "haila_theory_1990"
+
+\end_inset
+
+identifies three phases since 1970.
+ During the 1970s a consensus developed, rejecting earlier neoclassical
+ economic approaches to land rent and gravitating to a Marxian approach
+ emphasizing certain aspects of Marx's theory of rent.
+ A transitional period followed, with some scholars hiving off to follow
+ David Harvey's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "harvey2006thelimits"
+
+\end_inset
+
+lead, applying Marx's general analysis to the contemporary situation, while
+ others emphasized the heterogeneity of contexts in which land rent occurs,
+ rejected the notion of a general theory of land rent, and called for a
+ focus on diverse empirical studies.
+ But by the end of the 1980s, the subfield was in a state of 
+\begin_inset Quotes eld
+\end_inset
+
+rupture,
+\begin_inset Quotes erd
+\end_inset
+
+ with at least two distinct, disconnected camps.
+ This fragmentation continued and increased during the next two decades
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ward2016virtual"
+
+\end_inset
+
+.
+ In many ways, 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+***
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+By 2009, when the AAG designated Paul Krugman 
+\begin_inset Quotes eld
+\end_inset
+
+an honorary geographer,
+\begin_inset Quotes erd
+\end_inset
+
+ the isolation from each other of these two related fields of critical scholarsh
+ip was almost complete.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_whats_1998"
+
+\end_inset
+
+ described this 
+\begin_inset Quotes eld
+\end_inset
+
+new economic geography
+\begin_inset Quotes erd
+\end_inset
+
+ as one employing models that are 
+\begin_inset Quotes eld
+\end_inset
+
+fully general-equilibrium and clearly derive aggregate 
+\lang british
+behaviour
+\lang english
+ from individual maximization.
+\begin_inset Quotes erd
+\end_inset
+
+ In other words, as unabashedly mainstream and largely neoclassical.
+ In a paper delivered at an AAG plenary, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_new_2011"
+
+\end_inset
+
+ recognized the distance between mainstream economics and economic geography,
+ attributing it to differences in methodology, questions asked, and kinds
+ of answers sought, while totally ignoring heterodox critiques of these
+ features of mainstream economics and without challenge on this from the
+ geographers who commented on his paper.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Today heterodox economics and geographical political economy exist in almost
+ complete isolation from one another.
+ For example, the index of an introductory textbook by three leading heterodox
+ economists 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bowles_understanding_2005"
+
+\end_inset
+
+ includes no entries for 
+\begin_inset Quotes eld
+\end_inset
+
+built environment,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+capital switching,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+circuits of capital,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+cities,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+geography,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+space,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+spatial,
+\begin_inset Quotes erd
+\end_inset
+
+ or similar terms commonly used by geographers; its sole reference to 
+\begin_inset Quotes eld
+\end_inset
+
+rent
+\begin_inset Quotes erd
+\end_inset
+
+ merely takes the reader to a one-sentence definition stating that 
+\begin_inset Quotes eld
+\end_inset
+
+rent
+\begin_inset Quotes erd
+\end_inset
+
+ is what firms pay the owners of land, and its sole reference to 
+\begin_inset Quotes eld
+\end_inset
+
+race
+\begin_inset Quotes erd
+\end_inset
+
+ simply compares wealth across racial categories.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+The book does, however, discuss racial discrimination in several places,
+ albeit not directly addressing housing markets, schooling, or public goods.
+\end_layout
+
+\end_inset
+
+ Similarly, in what is being hailed as a major rethinking of the full scope
+ of economics by one of the world's most eminent heterodox economics, the
+ index to Anwar Shaikh's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "shaikh_capitalism:_2016"
+
+\end_inset
+
+
+\emph on
+Capitalism: Competition, Conflict, Crisis
+\emph default
+ makes no mention of any such concepts.
+ Even the index of a collection Geographers have been equally insular.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+xxxxx
+\end_layout
+
+\begin_layout Subsection
+Neglect of rent
+\end_layout
+
+\begin_layout Subsection
+The circuit of capital
+\end_layout
+
+\begin_layout Section
+Background issues
+\end_layout
+
+\begin_layout Subsection
+Critical realism
+\end_layout
+
+\begin_layout Subsection
+SFC models
+\end_layout
+
+\begin_layout Subsection
+Ground rent today & in the crisis
+\end_layout
+
+\begin_layout Section
+Model 1: ground rent in a simple model of Marx's circuit of capital
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Subsection
+Computer software
+\end_layout
+
+\begin_layout Subsection
+Model 1
+\end_layout
+
+\begin_layout Standard
+***
+\end_layout
+
+\begin_layout Standard
+The passage quoted above appears in Volume II of Karl Marx's 
+\emph on
+Capital
+\emph default
+, Chapter 12, 
+\begin_inset Quotes eld
+\end_inset
+
+The Working Period.
+\begin_inset Quotes erd
+\end_inset
+
+ Immediately before the passage, Marx argues that both the time needed to
+ produce a commodity and the amount of capital tied up while it is being
+ produced decrease the velocity of turnover and therefore, other things
+ being equal, the profit rate.
+ Therefore, production of such items is rarely done capitalistically.
+ In the passage quoted above, Marx identifies important changes in London
+ house-building during the first half of the nineteenth century that allowed
+ capitalist production of private houses to become widespread.
+ He astutely identifies characteristics of the nascent system that today
+ are common in many countries and, in several, have become dominant, defining
+ features of the production of the built environment, including not only
+ private housing for owner-occupancy but also housing for other housing
+ tenures and building for non-residential uses.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See, for example, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "wissoker2016putting"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "wissoker2016putting"
+
+\end_inset
+
+excellent study of changes in the U.S.
+ home-building industry between 1990 and 2007.
+ All the salient features Marx mentions are present.
+ Wissoker enumerates numerous competitive advantages afforded by large scale
+ and oligopolistic dominance in metropolitan markets, including use of such
+ advantages to obtain prime land.
+ Builders both built houses and bought up just land on speculation.
+ Wissoker cites estimates of speculative building and purchasing reaching
+ as high as 33% for outright speculation, with even more built speculatively
+ for market.
+ So that at least two million surplus home were on the market at the end
+ of the period.
+ Builders also supplemented profits with land-rent, but they also employed
+ devices Marx never mentions, such as using options on land pending regulatory
+ approval, to reduce the time capital is tied up.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Perhaps even more significant, this passage is the 
+\emph on
+only
+\emph default
+ place in all of Volume II of 
+\emph on
+Capital
+\emph default
+, which focuses on the circulation of capital, where Marx includes land-rent.
+ If land-rent is absent from this volume, one might infer that Marx deemed
+ land-rent to be largely irrelevant to the circulation of capital.
+ Indeed, most authors building on Marx's writing on land-rent draw on Volume
+ III of 
+\emph on
+Capital
+\emph default
+, especially Parts VI and VII, and various other writing, especially sections
+ of 
+\emph on
+Theories of Surplus Value
+\emph default
+ (?? cite a source or 2).
+ But these sections deal with 
+\emph on
+mechanisms
+\emph default
+ 
+\emph on
+determining
+\emph default
+ 
+\emph on
+the magnitude of land-rent and allowing its extraction
+\emph default
+.
+ They do not really deal with 
+\emph on
+how land-rent affects the larger economy
+\emph default
+ or, more generally, land-rent's 
+\emph on
+relation
+\emph default
+ to the larger economy.
+\end_layout
+
+\begin_layout Standard
+In recent article
+\end_layout
+
+\begin_layout Standard
+xxxxx
+\end_layout
+
+\begin_layout Standard
+Marx's circuit of capital is highly influential in heterodox theories of
+ non-equilibrium dynamics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "freeman1996marxand"
+
+\end_inset
+
+, the monetary circuit 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "trigg2004marxand"
+
+\end_inset
+
+, and crises and financial instability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "rugitsky2014financialization"
+
+\end_inset
+
+.
+ Beyond the Marxist tradition itself, its influence can be found in the
+ work of such luminaries as Von Neumann (balanced growth), Leontief (input-outpu
+t), Sraffa (circulating capital), and Walras (general equilibrium) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jiang2014endogenous"
+
+\end_inset
+
+.
+ Yet all these branches ignore land-rent.
+ Land-rent is missing from mainstream economics, aside from the somewhat
+ peripheral subfield of urban economics, which mainly deals with microeconomics;
+ in heterodox economics, with the exception of a few neo-Ricardians, land-rent
+ has also been largely ignored 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hudson_incorporating_2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Outside economics, particularly in geographical political economy and critical
+ urban studies it has been extremely influential, largely through David
+ Harvey's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "harvey2006thelimits"
+
+\end_inset
+
+ landmark 
+\emph on
+Limits to Capital
+\emph default
+ and subsequent work.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sheppard2011geographical"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "545"
+key "author_year_title2"
+
+\end_inset
+
+says 
+\emph on
+Limits
+\emph default
+ has provided a foundation for all his subsequent wor
+\size normal
+k
+\emph on
+.
+
+\emph default
+ 
+\end_layout
+
+\end_inset
+
+ Among the various topics Harvey covers in this ambitious work, it is fair
+ to say Marx's circuit of capital is the most important organizing theme.
+ In particular, Harvey's thesis of capital switching into a 
+\begin_inset Quotes eld
+\end_inset
+
+secondary circuit
+\begin_inset Quotes erd
+\end_inset
+
+ consisting mainly of investment in the built environment has been extremely
+ influential 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2011revisiting"
+
+\end_inset
+
+.
+ Yet while land-rent has important implications for Harvey's thesis, this
+ promise has not been fulfilled.
+ In fact, over the past three decades geographical political economy and
+ critical urban studies have also largely ignored land-rent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2016forreal"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+xxxx
+\end_layout
+
+\begin_layout Standard
+Despite this literature's extraordinary scope, 
+\emph on
+land rent
+\emph default
+ is conspicuously absent, and a number of reasons this absence is quite
+ remarkable.
+\end_layout
+
+\begin_layout Standard
+xxxx
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Indeed, elsewhere in the volume, Marx either treats land-rent as incidental
+ or he explicitly rejects its relevance because it is only part of total
+ surplus value.
+ Thus, he uses land-rent as an example of the kind of fixed, short-term
+ obligations that capitalists in industries with unavoidably long working
+ periods, such as seasonal agriculture, must devise ways to cover while
+ awaiting sale of their products 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "marx1967capital"
+
+\end_inset
+
+(p.
+ 235).
+ When he considers how capitalists realize surplus value in the form of
+ a greater sum of money than what they originally advanced, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "marx1967capital"
+
+\end_inset
+
+ (pp.
+ 333-4) dismisses land-rent's relevance:
+\end_layout
+
+\begin_layout Quote
+\SpecialChar ldots
+ there are only two points of departure: the capitalist and the 
+\lang british
+labourer
+\lang american
+.
+ All third categories of persons must either receive money for their services
+ from these two classes or, to the extent that they receive it without any
+ services in return, they are joint owners of the surplus-value in the form
+ of rent, interest, etc.
+ That the surplus value does not all stay in the pocket of the industrial
+ capitalist but must be shared by him with other persons, has nothing to
+ do with the present question.
+ The question is how he turns his surplus-value into money, not how the
+ proceeds are later divided.
+\end_layout
+
+\begin_layout Standard
+Chapter 19 reviews previous work of others and makes frequent reference
+ to land-rent.
+ But most such references are either quotations from the original sources
+ or Marx's own comments about the sources in which he uses the term 
+\begin_inset Quotes eld
+\end_inset
+
+ground-rent
+\begin_inset Quotes erd
+\end_inset
+
+ as it is used in the original quotation.
+ He criticizes these sources, and his criticisms often maintain that ground-rent
+ is a distraction when considering the circulation of capital, sometimes
+ even merging it with the profit of industrial capital.
+ For example, when discussing Adam Smith's treatment of circulating capital
+ Marx notes that the circulating value has three parts: value of means of
+ production, value of labor-power, and a portion that is the 
+\begin_inset Quotes eld
+\end_inset
+
+source of 
+\emph on
+profits, including ground-rent
+\emph default
+, of the industrial capitalists \SpecialChar ldots
+
+\begin_inset Quotes erd
+\end_inset
+
+; he goes on to point out the value of means of production includes the
+ revenues of actors engaged in their production, including 
+\begin_inset Quotes eld
+\end_inset
+
+profits and 
+\emph on
+ground-rents for the capitalists
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ (p.
+ 368, emphasis added).
+ For Marx, surplus value, rather than its component parts, is the important
+ consideration in the circulation of capital, and 
+\begin_inset Quotes eld
+\end_inset
+
+the fact that the rent passes into the hands of the landlord is wholly immateria
+l for the question under consideration
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "371, also see p. 485"
+key "marx1967capital"
+
+\end_inset
+
+, and later on he expands the list of subdivisions of surplus value to include
+ not only profit and land-rent, but also interest, government spending,
+ rentier revenues, and 
+\begin_inset Quotes eld
+\end_inset
+
+unproductive 
+\lang british
+labourers
+\lang american
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "marx1967capital"
+
+\end_inset
+
+(p.
+ 421, 457).
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Elsewhere 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "484"
+key "marx1967capital"
+
+\end_inset
+
+ refers to landlords and moneylenders as 
+\begin_inset Quotes eld
+\end_inset
+
+idle capitalists.
+\begin_inset Quotes erd
+\end_inset
+
+ Engels edited Marx's drafts as the basis for Volume II, which was published
+ after Marx's death.
+ So perhaps too close of a reading is unwarranted.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+***
+\end_layout
+
+\begin_layout Standard
+The passage appears in a chapter devoted to 
+\begin_inset Quotes eld
+\end_inset
+
+The Working Period
+\begin_inset Quotes erd
+\end_inset
+
+: the time capital is tied up during a commodity's production (Chapter 12).
+ Immediately before the passage, Marx makes the points that, other things
+ being equal, longer working periods tie up more capital, as do production
+ processes involving larger capital investments.
+ Therefore, production of such things is not done capitalistically (i.e.,
+ for profit by sale in the market) until capitalism is sufficiently developed,
+ with capital highly concentrated in large firms and a mature credit system
+ in place.
+ To support this, he then uses house-building as an example.
+ To be competitive, builders must be large-scale and build speculatively.
+ Even so, the profit is insufficient to justify the capitalist builder's
+ investment unless the credit system allows the capitalist to externalize
+ risk and 
+\emph on
+land-rent augments profit
+\emph default
+ sufficiently to achieve a competitive return on investment.
+\end_layout
+
+\begin_layout Standard
+Immediately before this he discusses the duration 
+\end_layout
+
+\begin_layout Standard
+appears in of Volume II of 
+\emph on
+Capital
+\emph default
+.
+ Yet in the entire volume, the quoted passage provides the most extensive
+ discussion of land rent.
+\end_layout
+
+\begin_layout Standard
+xxx
+\end_layout
+
+\begin_layout Standard
+The passage from Marx quoted above describes an important change in the
+ system for creating the built environment under capitalism.
+ In the early nineteenth century, house-building was small scale; builders
+ primarily worked directly for home buyers; those who could afford to purchase
+ houses paid for the house in installments, and the payments came from their
+ saved revenue; buyers owned the land before building began, and builders
+ started building only if they already had a buyer; and the builder's profit
+ came mainly from constructing the building itself.
+ By as industrial capitalism changed, so too did the system.
+ Increasingly, building was done on a large scale; builders speculated and
+ built houses for market; financing was through credit; and the main source
+ of profit became appreciated land rent, rather than profit on building
+ the house itself.
+ Also, Marx's comment about risking other people's capital implies that
+ leverage was also becoming common.
+\end_layout
+
+\begin_layout Standard
+The features of this new system are recognizable today, but with a scale
+ and complexity that might shock even Marx.
+ The U.S.
+ is perhaps the best example of this system's extensive logic.
+ Although small scale, custom, owner-contracted building is still common,
+ large corporate builders increasingly dominate the U.S.
+ housing market 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wissoker2016putting"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+by no means universal, the system has become global, with the U.S.
+ being perhaps the most .
+ 
+\end_layout
+
+\begin_layout Standard
+In late eighteenth-century Britain, land-rent still had feudal vestiges.
+ Market forces were beginning to penetrate the realm of land ownership and
+ rent, but Britain's landed aristocracy still owned the preponderance of
+ land and collected rent from tenant farmers.
+ It is therefore unsurprising that David Ricardo's 
+\emph on
+Principles of Political Economy and Taxation
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+before "[1817]"
+key "ricardo1821onthe"
+
+\end_inset
+
+, justly famous for its pioneering work on land rent, mainly deals with
+ agrarian land rent.
+ But, as the passage above from Marx attests, by the mid-eighteenth century
+ this had changed, and an urban land nexus involving land rent, credit,
+ speculative investment, and concentration of capital was taking shape.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Urban land nexus
+\begin_inset Quotes erd
+\end_inset
+
+ here refers to a varying set of social, economic, political, and institutional
+ relations combined in particular places and times and that together create
+ a particular dynamic of urbanization and construction, destruction, and
+ use of the built environment.
+ This dynamic, in turn, both affects and is affected by the larger set of
+ relations that constitute what is commonly called the 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomy
+\begin_inset Quotes erd
+\end_inset
+
+ and, more generally, the social formation of which the urban land nexus
+ is part.
+ Allen Scott, I believe, first used the term in his book, 
+\emph on
+The Urban Land Nexus and the State
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+after "first published in 1980"
+key "scott2013theurban"
+
+\end_inset
+
+.
+ Interestingly, this seminal book largely ignores many things Marx mentions:
+ concentration of capital, credit, finance, money, and speculation; none
+ of these terms even appear in the book's index.
+ The book also treats the urban land nexus as a rather fixed and universal
+ feature of capitalism.
+ Compared to this, my usage is more fluid in the sense that the urban land
+ nexus differs over space and time within varieties of capitalism; my usage
+ also sees money, monetary systems, finance capital, the role of speculation,
+ etc.
+ as intrinsic elements of the urban land nexus.
+ In this sense, my usage comes close to what 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haila2016urbanland"
+
+\end_inset
+
+calls 
+\begin_inset Quotes eld
+\end_inset
+
+land regimes,
+\begin_inset Quotes erd
+\end_inset
+
+ except that she considers capitalism as a regime in itself, while I use
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+urban land nexus
+\begin_inset Quotes erd
+\end_inset
+
+ to denote something that takes varied form within capitalism.
+ Also see 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "theurillat2015thereal"
+
+\end_inset
+
+ for a similar concept, 
+\begin_inset Quotes eld
+\end_inset
+
+real estate systems.
+\begin_inset Quotes erd
+\end_inset
+
+ Again, my usage is less taxonomic and more concerned with developing theories
+ and methods for identifying the dynamics associated with different systems.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The same nexus of credit, land values, and speculation became common in
+ the United States 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "woods1979housing,davis2008therentprice,leamer2007housing,doan1997american,wissoker2016putting"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+was deeply implicated in the crises of 1819, 1837, 1857, 1873, the Great
+ Depression of the 1930's, the Savings and Loans Crisis of the late 1980's,
+ and, of course, the 
+\end_layout
+
+\begin_layout Standard
+In the Banking Crisis of 1819, credit from eastern banks funded frontier
+ land speculation until .
+ 
+\end_layout
+
+\begin_layout Standard
+The global financial crisis of 2007-2009 and its aftermath was the single
+ most important economic event in recent memory.
+ The U.S.
+ housing finance system was undeniably the epicenter of the crisis.
+ Between 2000 and the peak in 2007 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Use FRED data to identify the peak date and to calculate the increase
+\end_layout
+
+\end_inset
+
+, ..., But this was very uneven geographically, with some metropolitan areas
+ experiencing price increases over 80%, while prices actually declined in
+ other areas.
+ Neither suddenly increased demand – from growth in population or income
+ – nor suddenly constricted supply – due to resource constraints or increased
+ construction costs – accounted for the breathtaking price increase.
+ Instead, a staggering increase in debt accounted for the increase in house
+ prices, the lion's share of which was reflected in increased land prices.
+ Given the importance of the crisis, the geographic unevenness of the bubble,
+ and the concomitant impact on land values, one might think that 
+\emph on
+land rent
+\emph default
+ would become a central concern in academic research related to the crisis.
+\end_layout
+
+\begin_layout Standard
+Wrong! 
+\end_layout
+
+\begin_layout Standard
+This paper begins to fill a lacuna between heterodox economics and urban
+ political economy.
+ During the late 1970s these two fields of inquiry 
+\end_layout
+
+\begin_layout Standard
+Over the past four decades the former has made great strides in understanding
+ the macroeconomic dynamics of capitalism and its crises, whereas the latter
+ has generated substantial insights into the spatial organization of human
+ settlements under capitalism and its implications for capitalism's dynamics.
+\end_layout
+
+\begin_layout Standard
+Few disagree that the U.S.
+ housing finance system was the epicenter of the 2007-2009 financial crisis.
+ It is also widely accepted that mainstream economists not only failed to
+ predict the crisis, they actually celebrated 
+\begin_inset Quotes eld
+\end_inset
+
+the great moderation
+\begin_inset Quotes erd
+\end_inset
+
+ in the years leading up to it.
+ Even worse, they had no convincing, systematic explanations for it 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "krugman2009howdid,colander2009thefinancial"
+
+\end_inset
+
+.
+ In contrast, heterodox economists fared much better 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bezemer2009noone"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Although he is Karl Marx's 
+\end_layout
+
+\begin_layout Section*
+Unnumbered
+\end_layout
+
+\begin_layout Standard
+headings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

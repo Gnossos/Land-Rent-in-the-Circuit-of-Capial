@@ -1,0 +1,56 @@
+\documentclass[]{memoir}
+\usepackage{lipsum}
+\usepackage{collect}
+
+%opening
+\title{Brown Cows}
+\author{Schmendrick Numbskull}
+
+\makeatletter
+\let\originalAbstract=\abstract
+
+% Collection version. Tested & works.
+\definecollection{abstracttext}
+\renewenvironment{abstract}
+  {\@nameuse{collect*}{abstracttext}{}{}{}{}}%
+  {\@nameuse{endcollect}}
+% 
+
+% Macro version. Tested & works.
+%\newcommand{\abstracttext}{}
+%\renewenvironment{abstract}
+%  {\@nameuse{collectinmacro}{\abstracttext}{}{}{}{}}%
+%  {\@nameuse{endcollectinmacro}}
+
+% Experiment with checking what pass we're on. See https://tex.stackexchange.com/questions/266439/how-to-write-a-two-pass-system-in-tex
+\newcount\passnum
+\newcount\tmpnum
+\newwrite\collectfile
+\newread\testin
+
+\def\pass#1#2{\advance\passnum by1 \tmpnum=#1 \advance\tmpnum by-#2
+	\expandafter \edef \csname pass:\thebook\passnum\endcsname{\thebook\tmpnum}}
+
+%\openin\testin=\jobname.tst
+%\ifeof\testin \message{Warning: file \jobname.tmp does not exist. This must be initial pass.}%
+%\else \closein\testin \input \jobname.tmp \fi
+%\else \message{Warning: file \jobname.tmp exists. This must be a subsequent pass.} \fi
+
+
+%\immediate\openout\passfile=\jobname.tmp
+%\passnum=0
+
+\begin{document}
+
+
+\includecollection{abstracttext}
+%\abstracttext
+
+\begin{abstract}
+\lipsum[3]
+\end{abstract}
+
+\includecollection{abstracttext}
+%\abstracttext
+
+\end{document}

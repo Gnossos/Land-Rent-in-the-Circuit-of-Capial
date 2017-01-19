@@ -1,0 +1,1283 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\include{preamble}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt,latin9,utf8
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
+\pdf_author "Marshall M.A. Feldman"
+\pdf_subject "Macroeconomic Geography"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The U.S.
+ housing system was at the center of the crisis of the early twenty-first
+ century.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This name for the crisis comes from 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Dumenil_2012_Crisis"
+
+\end_inset
+
+ and seems most appropriate.
+ Currently there is no consensus on the timing or nature of the crisis,
+ and its visible form has evolved through several phases: increased defaults
+ and foreclosures in the U.S.
+ housing market (2006), liquidity crisis and credit crunch (2007), failure
+ and distress of major financial institutions (2007-8), drastic government
+ intervention (2007-13), a global recession of epic proportions (2007 -
+ 2009+), Europe's sovereign debt and austerity imbroglio (2009 - present),
+ and Brexit and the rise of right-wing populist movements in Europe and
+ the U.S.
+ (c.
+ 2009 - present).
+\end_layout
+
+\begin_layout Plain Layout
+A major goal of this paper is to better integrate heterodox economics and
+ economic geography.
+ In addition to 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Dumenil_2012_Crisis"
+
+\end_inset
+
+, some examples of heterodox economics analyses of the crisis with strong
+ geographic relevance include: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "foley2009theanatomy"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hudson2012thebubble"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lucarelli2012financialization"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "palan2013thefinancial"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pettifor2013thenext"
+
+\end_inset
+
+, and Kotz (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "kotz2013thecurrent"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "kotz2015capitalism"
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+ In the housing bubble leading up to the crisis, house prices increased
+ 188% between 1997 and 2006 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "levitin2012explaining"
+
+\end_inset
+
+.
+ Since land prices are a major component of housing prices, generally believed
+ to reflect capitalized streams of ground rent, and, because land is much
+ less easily produced than house structures, ground rent is the prime candidate
+ for the lion's share of the house-price inflation.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A common misunderstanding of land is that, as a use value, it cannot be
+ created but is instead an inherently limited 
+\begin_inset Quotes eld
+\end_inset
+
+scarce resource
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "806"
+key "elden2010landterrain"
+
+\end_inset
+
+.
+ I address this issue below.
+\end_layout
+
+\end_inset
+
+ Indeed, this was the case (see Figure ??).
+ So if land is 
+\begin_inset Quotes eld
+\end_inset
+
+the economic fulcrum of the capitalist remaking of geography
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "1"
+key "ward2016virtual"
+
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+the primary conceptual vehicle by which geography ...
+ can be imported into otherwise aspatial political-economic thinking
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "136"
+key "christophers2016forreal"
+
+\end_inset
+
+, one might expect economic geographers not only to have much to say in
+ the wake of the crisis about the role of ground rent, but also to have
+ been intensely studying ground rent before the crisis and perhaps even
+ to have been among those who predicted it.
+ Unfortunately, this was not the case 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ward2016virtual"
+
+\end_inset
+
+, and this lacunae appears to be yet another 
+\begin_inset Quotes eld
+\end_inset
+
+boat
+\begin_inset Quotes erd
+\end_inset
+
+ that economic geography missed (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "dicken2004geographers"
+
+\end_inset
+
+; also see 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "taylor2012islandlife"
+
+\end_inset
+
+).
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Seeking to debunk government officials' and mainstream economists' claim
+ that the crisis was unforeseen and unforeseeable, 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "7-9"
+key "bezemer2009noone"
+
+\end_inset
+
+identified authors who met four criteria.
+ They must have: not only predicted the crisis, but also explained how they
+ arrived at their prediction; linked the prediction about a real estate
+ crash to wider economic impacts; publicly released their analysis; and
+ given a time frame for their predictions.
+ These criteria yielded a list of twelve persons, including 
+\begin_inset Quotes eld
+\end_inset
+
+academics, government advisers, consultants, investors, stock market commentator
+s and one graduate student.
+\begin_inset Quotes erd
+\end_inset
+
+ Not one economic geographer was on the list.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This should not surprise anyone familiar with the current state of economic
+ geography.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Strictly speaking, 
+\begin_inset Quotes eld
+\end_inset
+
+economic geography
+\begin_inset Quotes erd
+\end_inset
+
+ refers to a sub-discipline of geography, but here I use it more broadly
+ to include certain strains of urban studies outside the discipline of geography
+ proper.
+ I believe the following description of the current state of economic geography
+ applies both within and outside the discipline of geography.
+\end_layout
+
+\end_inset
+
+ Since the late 1980's, the field has become increasingly fragmented and
+ disconnected 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "scott07economic,barnes2010nothing"
+
+\end_inset
+
+.
+ Rapid, geographically discontinuous change became common in the global
+ space economy, making the economic prospects of what had previously been
+ the economically secure and dominant 
+\begin_inset Quotes eld
+\end_inset
+
+core
+\begin_inset Quotes erd
+\end_inset
+
+ of the global economy increasingly tenuous and uncertain.
+ This motivated economic geographers to look for (and often claim they had
+ discovered) the next new thing that could save homeland capitalism, and
+ along with this economic geography went through a series of faddish 
+\begin_inset Quotes eld
+\end_inset
+
+turns
+\begin_inset Quotes erd
+\end_inset
+
+ (flexibility, cultural, relational, evolutionary, etc.).
+ It became preoccupied with 
+\begin_inset Quotes eld
+\end_inset
+
+the churn and chop of capitalist restructuring
+\begin_inset Quotes erd
+\end_inset
+
+ but paid little or no attention to 
+\begin_inset Quotes eld
+\end_inset
+
+the structural dynamics of that churn and chop
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "11"
+key "peck2016macroeconomic"
+
+\end_inset
+
+.
+ Its gaze settled on the local and regional, the micro and meso, the new
+ and novel.
+ This became so characteristics of the field that in his review article
+ of 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "hudson2016risingpowers"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "hudson2016risingpowers"
+
+\end_inset
+
+ synthetic account of ongoing transformations in the global economy, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Peck_2016_Macroeconomic"
+
+\end_inset
+
+ stresses how uncommon 
+\begin_inset Quotes eld
+\end_inset
+
+macroscopic questions,
+\begin_inset Quotes erd
+\end_inset
+
+ like the ones 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "hudson2016risingpowers"
+
+\end_inset
+
+ addresses, have become in contemporary economic geography.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "peck2016macroeconomic"
+
+\end_inset
+
+'s otherwise excellent commentary has two unfortunate characteristics.
+ The term 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomic
+\begin_inset Quotes erd
+\end_inset
+
+ in the title evokes a sense of how both mainstream and heterodox economists
+ practice macroeconomics within the discipline of economics.
+ For the most part, they study the structures of whole economies, the articulati
+on of the component parts of such structures, and their dynamics.
+ While 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "hudson2016risingpowers"
+
+\end_inset
+
+'s paper presumes such elements, they are mainly implicit.
+ Instead, the paper is an interpretive description of ongoing changes in
+ the global economy.
+ So the 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomic
+\begin_inset Quotes erd
+\end_inset
+
+ label could be misleading.
+\end_layout
+
+\begin_layout Plain Layout
+Second, in discussing the novelty of 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "hudson2016risingpowers"
+
+\end_inset
+
+'s intervention, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Peck_2016_Macroeconomic"
+
+\end_inset
+
+ briefly recounts the history of economic geography since the 1970's.
+ In doing so he metaphorically borrows a practice from computer software
+ development, calling the prevalent academic practice during the period
+ from around 1970 to the mid-1990's 
+\begin_inset Quotes eld
+\end_inset
+
+economic geography 1.0
+\begin_inset Quotes erd
+\end_inset
+
+ and the (multiple, fragmented, isolated) practices during the subsequent
+ period, 
+\begin_inset Quotes eld
+\end_inset
+
+economic geography 2.0.
+\begin_inset Quotes erd
+\end_inset
+
+ But in computer software such nomenclature typically connotes improvement
+ in subsequent generations, in the sense that the latter correct earlier
+ errors (fix bugs) and enhance capabilities.
+ But neither characteristic is self-evident in economic geography as practiced
+ since the 1990's.
+ In fact, a good case can be made that the later phase is retrograde.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Cite articles in the new handbook when you get it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Furthermore, as the field became fragmented, debates between devotees of
+ different approaches occasionally became acrimonious, and this combined
+ with the tendency for inbreeding within approaches, not only to further
+ fragment the field, but also to turn different approaches into self-referential
+, self-reinforcing 
+\begin_inset Quotes eld
+\end_inset
+
+intellectual solitudes
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "barnes2010nothing"
+
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+tribes
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "peck2012economic"
+
+\end_inset
+
+.
+ Finally, much as the flexible specialization literature asserts firms are
+ reluctant to make major capital investments in a turbulent economic environment
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "piore1984thesecond"
+
+\end_inset
+
+, in the turbulent environment of economic geography scholarship, researchers
+ are prone to choose topics requiring smaller, less risky investments.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This may be especially true for younger scholars.
+ Studying the structural dynamics of capitalism requires some familiarity
+ with mainstream macroeconomics and its heterodox counterpoints, as well
+ as enough mathematics both to make one's way through this often math-laden
+ literature and to conduct independent research.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "490"
+key "scott07economic"
+
+\end_inset
+
+ notes that scholars trained during economic geography's quantitative phase
+ often transitioned later to doing political-economic research on broad
+ structural dynamics.
+ Even though they rejected the positivism and apologetics of 
+\begin_inset Quotes eld
+\end_inset
+
+spatial science,
+\begin_inset Quotes erd
+\end_inset
+
+ their knowledge of the mainstream literature and their quantitative training
+ served them well for this task.
+ But after twenty-five years of fragmentation, things have changed.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "119"
+key "peck2012economic"
+
+\end_inset
+
+ suggests economic geography has experienced a 
+\begin_inset Quotes eld
+\end_inset
+
+generational shift towards more qualitative approaches.
+\begin_inset Quotes erd
+\end_inset
+
+ If so, then younger scholars today may be ill-equipped for studying capitalism'
+s macro structural dynamics and choose to confine themselves to topics amenable
+ to qualitative research at micro and meso levels..
+\end_layout
+
+\end_inset
+
+ Even so, in the rush to join the latest fad, rigor can become a casualty,
+ and often the quality of this research leaves much to be desired 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "markusen1fuzzyconcepts,martin2001rethinking"
+
+\end_inset
+
+.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+On top of this, the field's ventures into such things as poststructuralism
+ and postmodernism introduced widely varying standards of what legitimately
+ counts as high-quality research.
+ In such an environment, what is rigor to one person' is rigor mortis to
+ another.
+ 
+\end_layout
+
+\end_inset
+
+ But the bigger point is that economic geography today is nowhere near the
+ ideal of a scientific community, joined together around the common goal
+ of developing a shared understanding of the world by building on a common
+ research program and finding ways to adjudicate disagreements.
+ The likelihood that even a subset of contemporary economic geographers
+ would identify potential threats to the global economic order, consistently
+ monitor such threats, and based on such research warn about the order's
+ immanent implosion is virtually nil.
+\end_layout
+
+\begin_layout Standard
+Nonetheless, despite its disorder and fragmentation, certain unifying threads
+ run through contemporary economic geography.
+ These include the shared beliefs that capitalism is neither universal nor
+ superior to other forms of economic organization; that capitalism is necessaril
+y subject to crises and generally in a state of disequilibrium; that there
+ is no such thing as a separate, self-governing 
+\begin_inset Quotes eld
+\end_inset
+
+economy,
+\begin_inset Quotes erd
+\end_inset
+
+ but instead 
+\begin_inset Quotes eld
+\end_inset
+
+economic
+\begin_inset Quotes erd
+\end_inset
+
+ aspects of society are always embedded in a wider social web of culture,
+ institutions, ecology, and 
+\begin_inset Quotes eld
+\end_inset
+
+nature
+\begin_inset Quotes erd
+\end_inset
+
+; that spatiality matters in that space cannot be reduced to a Cartesian
+ container but instead is intrinsic to human life, and the social, historical,
+ and spatial aspects of human societies constitute and determine each other
+ in a socio-spatial dialectic; that society is not an undifferentiated collectio
+n of individuals, much less one with common goals and bound together by
+ social contracts or other forms of mutual consent, but instead it consists
+ of social relations of unequal power along various axes of domination/subordina
+tion; and that concrete research on actual economies in specific places
+ is particularly important.
+ (See
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "sheppard2011geographical,sheppard2012thelong,peck2016macroeconomic"
+
+\end_inset
+
+; and 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "soja1980thesociospatial"
+
+\end_inset
+
+.) These shared beliefs situate economic geography in opposition to mainstream
+ economic orthodoxy thereby qualifying economic geography as heterodox relative
+ to mainstream orthodoxy 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peck_2015_Navigating,sheppard00000heterodox"
+
+\end_inset
+
+.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Peck_2015_Navigating"
+
+\end_inset
+
+sees such unorthodox beliefs and practices as a weak qualification for being
+ heterodox and points to economic geography's pluralism as stronger qualificatio
+n.
+ But on its own pluralism per se does not qualify a set of practices as
+ heterodox, and in fact some authors claim mainstream economics is already
+ pluralist and becoming more so.
+ See below.
+\end_layout
+
+\end_inset
+
+ But these beliefs are very general and therefore leave room for great variation
+ in the practice of economic geography, so these threads tying economic
+ geography together are quite loose.
+\end_layout
+
+\begin_layout Standard
+A possibly stronger thread is Marxism.
+ David Harvey's brilliant work 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "esp."
+key "harvey2006thelimits"
+
+\end_inset
+
+ has been remarkably influential in the field, and he has steadfastly promoted
+ and advanced the Marxist tradition in geography.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sheppard2012thelong"
+
+\end_inset
+
+ maintain that 
+\begin_inset Quotes eld
+\end_inset
+
+anyone seeking to take economic geography in a new and different direction
+ still feels compelled to rationalize their position relative to his [Harvey's],
+ either to declare affinities to, or distance themselves from, Harvey and
+ Marxism.
+ Drawing on Derrida, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "sheppard2011geographical"
+
+\end_inset
+
+(
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "sheppard2011geographical"
+
+\end_inset
+
+, 320; 
+\begin_inset CommandInset citation
+LatexCommand citealt
+after "11"
+key "sheppard2012thelong"
+
+\end_inset
+
+) thus describes the field as 
+\begin_inset Quotes eld
+\end_inset
+
+haunted by Marx.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Sheppard cites 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "derrida25specters"
+
+\end_inset
+
+ as the source of this term.
+ But my own reading is that the title of Derrida's book refers to the 
+\begin_inset Quotes eld
+\end_inset
+
+spectre
+\begin_inset Quotes erd
+\end_inset
+
+ that Marx and Engels described as haunting Europe at the beginning of the
+ 
+\emph on
+Communist Manifesto
+\emph default
+ (i.e., communism), and Derrida's book (which originally was a lecture) is
+ about using post-structuralism as a tool to identify something in today's
+ world that could serve a similar role as a radical liberation movement.
+ In relation to this, Derrida identifies ten 
+\begin_inset Quotes eld
+\end_inset
+
+plagues
+\begin_inset Quotes erd
+\end_inset
+
+ of today's global capitalism.
+ But in keeping with the obvious religious allusion, much of Derrida's book
+ deals with similar religious and supernatural allusions in Marx.
+ To me the most memorable and dramatic of these (and the most relevant to
+ this paper) is the image of 
+\begin_inset Quotes eld
+\end_inset
+
+an enchanted, perverted, topsy-turvy world, in which Monsieur le Capital
+ and Madame la Terre do their ghost-walking as social characters and at
+ the same time directly as mere things
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "830"
+key "marx1967capital"
+
+\end_inset
+
+.
+ Nonetheless, the practice describing Derrida as himself being 
+\begin_inset Quotes eld
+\end_inset
+
+haunted
+\begin_inset Quotes erd
+\end_inset
+
+ by Marx in that he (Dirrida) had to deal with Marx, and describing other
+ authors the same way, perhaps with some deliberate irony, is not uncommon.
+ For example, without reference to Dirrida, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "walker2004thespectre"
+
+\end_inset
+
+ uses similar imagery specifically with respect to Harvey's influence on
+ geography.
+\end_layout
+
+\end_inset
+
+ This metaphor is very apropos.
+ Many contemporary economic geographers treat not only Marx but the entire
+ Marxist tradition more like a corpse than as something living and evolving.
+ Hence, in post-1990 economic geography one finds almost zero references
+ to new developments within even the relatively circumscribed field of Marxian
+ economics, such as new, non-equilibrium, non-dual interpretations of the
+ labor theory of value 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "freeman2010trendsin"
+
+\end_inset
+
+ or the copious literature rethinking Marx's theory of money in relation
+ to production 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "graziani2003themonetary,wray1999theories"
+
+\end_inset
+
+; conversely, today very few economic geographers – even, or especially,
+ those whose work is very much in a Marxist vein – make much effort to present
+ their work as extending or modifying received Marxian political economy.
+ Even around 1990, when the then-dominant 
+\begin_inset Quotes eld
+\end_inset
+
+structuralist
+\begin_inset Quotes erd
+\end_inset
+
+ Marxian geographical political economy came under increasing criticism
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "scott07economic"
+
+\end_inset
+
+, few critics sought to reconcile their criticisms with the received approach
+ by correcting or augmenting it.
+ This was despite the fact that the critics were often sympathetic in that
+ they shared with the 
+\begin_inset Quotes eld
+\end_inset
+
+structuralists
+\begin_inset Quotes erd
+\end_inset
+
+ the inclination to reject spatial science's technocratic impulse in favor
+ of a broader project of human liberation, and their criticisms of the received
+ approach often maintained it was incomplete and too restrictive rather
+ than incorrect .
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Incomplete by ignoring or downplaying class conflict, gender, human subjectivity
+ and agency, non-capitalist elements in existing economies, and so on.
+ Of course, an approach that is incomplete very likely will be unable to
+ explain empirical situations on its own, and the causal efficacy of what
+ it claims to know will depend on elements the approach omits.
+ So in the sense that the structural logic was (mis)applied to certain situation
+s, the approach was incorrect.
+ Besides this, perhaps the main substantive criticism of the approach per
+ se is that it was insufficiently open.
+ See 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "490 - 491"
+key "scott07economic"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+Of course, this is a gross generalization, but overall I think the characterizat
+ion is correct.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Turning to ground rent, one can see a similar pattern.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ward2016theshitty"
+
+\end_inset
+
+distinguish between land and ground rent.
+ The former includes payments for the use of not only land but also of buildings
+ and other improvements associated with any particular parcel of land.
+ Ground rent, on the other hand, consists of payments for the use of land
+ net of payments for the use of fixed capital on the land.
+ Generally, a parcel of land's location is reflected in payments for its
+ use, but the portion of the payment attributable to the parcel's location
+ are treated as due solely to the location of the land and therefore are
+ as ground rent.
+ Since the literature emphasizes location, the literature on rent is primarily
+ about what 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "ward2016theshitty"
+
+\end_inset
+
+call 
+\begin_inset Quotes eld
+\end_inset
+
+ground rent.
+\begin_inset Quotes erd
+\end_inset
+
+ Although this terminology is not used universally, for the sakes of clarity
+ and consistency, this paper follows convention.
+\end_layout
+
+\end_inset
+
+ In an important landmark review of the ground-rent literature published
+ in 
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "haila1990thetheory"
+
+\end_inset
+
+, Anne 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "haila1990thetheory"
+
+\end_inset
+
+ describes the field as being at a crossroads.
+ Breaking the literature up into three periods – consensus during the 1970s,
+ transition around 1980, and rupture during the 1980s – she further characterize
+s the last of these as one polarized between ideographic and nomothetic
+ approaches to the subject.
+ She describes scholars working on the theory of rent as being motivated
+ by contemporary issues but frequently falling back on 
+\begin_inset Quotes eld
+\end_inset
+
+canonical dogma,
+\begin_inset Quotes erd
+\end_inset
+
+ and the crossroads she refers to is the choice between continuing in this
+ vein versus developing the theory 
+\begin_inset Quotes eld
+\end_inset
+
+in an unbiased maner [sic]
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "276"
+key "haila1990thetheory"
+
+\end_inset
+
+.
+ Developments in the study of land rent are subject to the same currents
+ affecting the larger, parent field of economic geography, so it is not
+ surprising that the bifurcation 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "haila1990thetheory"
+
+\end_inset
+
+describes occurred around the same time as when, according to 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "scott07economic"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "barnes2010nothing"
+
+\end_inset
+
+, centrifugal forces and fragmentation became more pronounced throughout
+ economic geography.
+ However, unlike economic geography as a whole, the theory of rent entered
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+magic roundabout
+\begin_inset Quotes erd
+\end_inset
+
+ of circular reasoning 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kerr1996thetheory"
+
+\end_inset
+
+ that effectively functioned as a theoretical and methodological cul-de-sac,
+ leading many scholars to turn away from the subject and resulting not only
+ in the general neglect of land rent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ward2016theshitty"
+
+\end_inset
+
+, but also to a 
+\begin_inset Quotes eld
+\end_inset
+
+stalled
+\begin_inset Quotes erd
+\end_inset
+
+ literature on the more general topic of the role of land in capitalism
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2016forreal"
+
+\end_inset
+
+.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "christophers2016forreal"
+
+\end_inset
+
+ attributes this stall to the fact that both Marx and Polanyi label ground
+ rent as a form of 
+\begin_inset Quotes eld
+\end_inset
+
+fictitious capital,
+\begin_inset Quotes erd
+\end_inset
+
+ which causes scholars to take ground rent and land less seriously.
+ For example, he speculates 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "144"
+key "christophers2016forreal"
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+perhaps if land were conceived as real as opposed to fictitious capital
+ we would not so readily forget in the first place [that land-related financial
+ vehicles are ultimately tied to private property and 
+\begin_inset Quotes eld
+\end_inset
+
+solid, physical assets.
+\begin_inset Quotes erd
+\end_inset
+
+ For many reasons, I do not find this argument convincing and instead would
+ argue that there are many other reasons why ground rent has been neglected.
+ But my goal here is not to explain this neglect, nonetheless I return to
+ this subject below, in the discussion of ground rent.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

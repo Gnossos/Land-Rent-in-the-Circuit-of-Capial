@@ -1,0 +1,74 @@
+\batchmode
+\makeatletter
+\def\input@path{{\string"/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Land Rent in the Circuit of Capial/\string"}}
+\makeatother
+\documentclass[oneside,english,oldfontcommands,noae,oneside,article, extrafontsizes, 10pt,latin9,utf8]{memoir}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1.5in,rmargin=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\OnehalfSpacing
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+ {hyperref}
+\hypersetup{pdftitle={Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography},
+ pdfauthor={Marshall M.A. Feldman},
+ pdfsubject={Macroeconomic Geography}}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newlength{\lyxlabelwidth}      % auxiliary length 
+ \usepackage{changebar}
+ \providecommand{\lyxadded}[3]{}
+ \providecommand{\lyxdeleted}{}
+ \renewcommand{\lyxadded}[3]{
+   {\protect\cbstart\color{lyxadded}{}#3\protect\cbend}
+ }
+ \renewcommand{\lyxdeleted}[3]{%
+   {\protect\cbstart\color{lyxdeleted}\sout{#3}\protect\cbend}
+ }
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\input{general-preamble}
+\input{master-preamble}
+
+\makeatother
+
+\usepackage{Sweave}
+\begin{document}
+\begin{comment}
+With myMemoir, don't put title, etc. in LyX.
+\end{comment}
+
+\include{7_Users_marsh_OneDrive_Documents_Research-King____n_the_Circuit_of_Capial_0-Abstract_Abstract}
+
+\newpage{}
+
+\include{4_Users_marsh_OneDrive_Documents_Research-King____rcuit_of_Capial_1-Introduction_Introduction}
+
+\begin{comment}
+Need to add EconomicGeography and HeterodoxEconomics
+\end{comment}
+
+\include{9_Users_marsh_OneDrive_Documents_Research-King____nt_in_the_Circuit_of_Capial_4-LandRent_rent}
+
+\begin{comment}
+Add Models, Conclusion, Notation Appendix
+\end{comment}
+
+\begin{comment}
+\bibliographystyle{plain}
+\bibliography{\string"/Users/marsh/OneDrive/Documents/Research-King Mac/Political Economy/Land Rent in the Circuit of Capial/References\string"}
+\end{comment}
+
+\printbibliography[title={References}]
+\end{document}

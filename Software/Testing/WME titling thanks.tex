@@ -1,0 +1,37 @@
+\documentclass[]{memoir}
+\usepackage{titling}
+
+%opening
+\begin{document}
+
+% Notice authors are set outside the \titlingpage environment.
+\author{Bart Simpson\thanks{Contact: Springfield, USA}\thanks{I wish to thank my sister for helping me with this.}}
+\title{Contemporary Child Psychology}
+\begin{titlingpage}
+
+\global\let\tmpclearpage\clearpage % Save the real clearpage command
+\global\let\clearpage\relax % % Prevent the clearpage command at the end of titlingpage from adding a page break
+
+\maketitle
+
+\emptythanks % This should resent the thanks.
+\end{titlingpage}
+\global\let\clearpage\tmpclearpage % Restore the original \clearpage command
+
+\author{Lisa Simpson\thanks{Contact: 77 Massachusetts Ave., Cambridge, MA}\thanks{Don't believe my bother. He plagiarized my research.}}
+
+\title{Contemporary Child Psychology}
+\begin{titlingpage}
+\maketitle
+\emptythanks % This should reset the thanks. In fact, it does.
+\end{titlingpage}
+
+% But now let's try \maketitle outside the \titlingpage. Just to play save, let's empty the thanks again.
+\emptythanks
+% And now give it a new author.
+\author{Homer Simpson\thanks{Contact: Springfield, USA}\thanks{I'd like to thank my daughter for the lunch of beer and doughnuts.}}
+\maketitle
+
+Ever since Krusty the Clown wrote his thesis on child psychology, the field has been in a tizzy.
+
+\end{document}

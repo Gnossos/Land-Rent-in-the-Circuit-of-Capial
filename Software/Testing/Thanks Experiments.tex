@@ -1,0 +1,100 @@
+\documentclass[]{memoir}
+\RequirePackage{xstring}
+\usepackage{lipsum}
+
+%opening
+\title{The Name's the Game}
+\newcommand{\subtitle}[1][This is the subtitle]{}
+\author{Fred Astair\thanks{Contact: Dance Studio}\thanks{Ginger, my love.}}
+
+% Define revision footer.
+\makeatletter
+\providecommand*{\version}{6.0} % NEED TO PROGRAM THIS IN THE PACKAGE
+
+% From https://tug.org/pracjourn/2008-2/madsen/madsen.pdf, Scenario 6, pp. 17-18
+\newcommand\AddRevision{%
+	\setlength\unitlength{1mm}
+	\begin{picture}(0,0)
+	\put(0,-7){\footnotesize\itshape Revision \version, compiled \today}
+	\end{picture}}
+\makeoddfoot{headings} {\AddRevision}{}{}
+\makeevenfoot{headings}{\AddRevision}{}{}
+\makeoddfoot{empty} {\AddRevision}{}{}
+\makeevenfoot{empty} {\AddRevision}{}{}
+
+% From titlePage
+\newlength{\rulewidth}
+\setlength{\rulewidth}{0.4pt}
+\newcommand{\HRule}[1][0.4pt]{%	Draw a horizontal rule with width specified in #1 (default 0.4pt)
+	\setlength{\rulewidth}{#1}
+	\rule{\textwidth}{\rulewidth}%
+}
+
+% Top rule.
+\renewcommand{\maketitlehooka}{%
+		\HRule[1.6pt]\vspace*{-\baselineskip}\vspace*{2pt}
+		\HRule\\[\baselineskip]
+		} %
+
+\renewcommand{\maketitlehookb}{%
+		\HRule\vspace*{-\baselineskip}\vspace*{3.2pt}
+		\HRule[1.6pt]\\[\baselineskip]%
+		} %
+
+\newcommand{\titlesplice}[1][2]{%
+	\begin{DoubleSpace}
+		\unless\ifx\subtitle\empty{%
+			\renewcommand{\title}{
+				{{\thetitle}: }%
+				\\*[.25\baselineskip]%
+				{ \huge \bfseries {\subtitle}}
+			}
+		}
+	\end{DoubleSpace}
+}
+	
+\titlesplice
+
+
+\pagestyle{empty}
+
+\begin{document}
+
+% Define a footer if a revision string is defined. (Rev. 2.1)
+\setheadfoot{\headheight}{1.5\footskip} % Lower the footer more.
+\setlength{\parindent}{0pt}
+
+\begin{titlingpage}
+\setlength{\droptitle}{30pt}
+\maketitle
+%Paper presented at the Mortuary Science conference.
+%\emptythanks
+\end{titlingpage}
+
+\begin{abstract}
+\lipsum[1-2]
+\end{abstract}
+\newpage
+
+\setlength{\droptitle}{-60pt}
+\renewcommand{\maketitlehooka}{}%
+\renewcommand{\maketitlehookb}{}%
+
+%\newcommand{\inlinemaketitle}{{\let\newpage\relax\maketitle}} % See https://tex.stackexchange.com/questions/185160/how-to-suppress-newpage-when-using-titling
+
+
+\begin{titlingpage}
+{\let\newpage\relax}
+\emptythanks.
+\end{titlingpage}
+{\let\newpage\relax\maketitle}
+
+\nopagebreak
+
+\section{Introduction}
+Hello, this is \author{John Doe} %\thanks{Spice], my love.}}.
+
+And I want to give \thanks{To everyone}
+
+What is \@thanks?
+\end{document}

@@ -1,0 +1,5 @@
+[1] Config.pm:354> INFO - This is Biber 2.7
+[1] Config.pm:357> INFO - Logfile is 'Thanks Experiments.blg'
+[82] biber-darwin:303> INFO - === Fri Jan 13, 2017, 17:47:23
+[362] Utils.pm:180> ERROR - Cannot find control file 'Thanks Experiments.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[362] Biber.pm:113> INFO - ERRORS: 1

@@ -1,0 +1,44 @@
+\documentclass[]{memoir} % Eventually this will be used with Memoir
+\usepackage{xparse,etoolbox}
+
+% Some string variables for later
+\newcommand*{\authorlist} {Albert Einstein}
+\newcommand*{\jobTitle}{Distinguished Professor of Everything}
+\newcommand*{\affiliation}{Center for Advanced Studies}
+
+\DeclareDocumentCommand{\authorblock}{ %
+	+G{\authorlist} %				#1	List of author name(s); optional, defaults to the author list
+	+g %							#2	Jobtitle, optional
+	+g %							#3	Affiliation, optional
+} {
+
+	% Clear the author string.
+	\providerobustcmd*{\authorstring}{}
+	\renewrobustcmd*{\authorstring}{#1}
+	
+	% Now add the author
+	%\appto\authorstring{#1}
+
+	\IfNoValueF{#2}{
+		\eappto\authorstring{\newline{#2}}
+	}
+
+%	\IfNoValueF{#3}{
+%		\eappto\authorstring{\newline{#3}}
+%	}
+
+	\authorstring
+}
+
+\begin{document}
+
+\authorblock 
+\\
+\\
+\authorblock {\authorlist} {\textit{\jobTitle}}
+\\
+\\
+\authorblock {\authorlist} {\jobTitle} {\affiliation}
+%\authorblock {}{\jobTitle}
+
+\end{document}
