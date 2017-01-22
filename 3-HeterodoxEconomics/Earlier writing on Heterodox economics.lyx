@@ -1,0 +1,836 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[utf8]{inputenc}
+
+% My Memoir customizations
+\usepackage[noFPauthor]{myMemoir}% See myMemoir for other options
+\author{\myName}
+
+% Customizations for this article
+\title{Ground Rent in the Circuit of Capital}
+\subtitle{Some Stock-Flow Consistent Models Combining Heterodox Economics and Geographical Political Geography}
+\date{\today}% Change to an actual date if you wish
+\acknowledge{Thanks to Antoine Godin, Russell Standish, and Steve Keen for helping me use the software packages they developed, including at times revising the software to better meet my needs.}
+
+% Revision information.
+\revstring{Ver. 1.0, initial version (08/23/2016)}
+
+% Redefine (Memoir's & Epigraph package) epigraph width
+%	This is set in myMemoir, but you can reset it here.
+\setlength{\epigraphwidth}{.65\linewidth}
+
+% Bibliography stuff
+\addbibresource{References.bib}
+
+% Bibliography Options (I can't get bookseries to work)
+\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,compresspages}
+%\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,bookseries=false,compresspages}
+
+% Cosmetics
+\setbeforesecskip{-2em}
+\setbeforesubsecskip{-2em}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language american
+\language_package auto
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Title goes here"
+\pdf_author "Marshall M. A. Feldman"
+\pdf_subject "Summary of the subject"
+\pdf_keywords "spatiality, geography, planning, Edward W. Soja, UCLA"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Heterodox Economics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ literally means being unorthodox, so HE is necessarily defined in relation
+ to orthodoxy within its discipline.
+ Economics is unique among social science disciplines in that a single approach
+ not only dominates the discipline, but also its acolytes are unaware of,
+ ignore, or are actively hostile to alternatives (
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "King_2013_case"
+
+\end_inset
+
+; also see 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Fourcade_2015_Superiority"
+
+\end_inset
+
+).
+ Nonetheless, as with any aggregation of knowledge, the boundaries of mainstream
+ economics are fuzzy and its core ideas vary, among practitioners and over
+ time (and space).
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Colander_2004_Changing"
+
+\end_inset
+
+ claim mainstream economics is itself dynamic and therefore capable of absorbing
+ formerly heterodox positions, with the present period being one in which
+ the profession is open to doing so 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "492"
+key "Colander_2004_Changing"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This opens up the questions of exactly what defines the mainstream and if
+ the term 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ has an utility whatsoever.
+ Without evidence or much discussion, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Colander_2004_Changing"
+
+\end_inset
+
+ present a sanguine view of the mainstream having integrity, objectivity,
+ and benevolence.
+ For example, they assume the mainstream is a just meritocracy in which
+ the most 
+\begin_inset Quotes eld
+\end_inset
+
+imaginative and creative
+\begin_inset Quotes erd
+\end_inset
+
+ economists become members of the mainstream 
+\begin_inset Quotes eld
+\end_inset
+
+elite,
+\begin_inset Quotes erd
+\end_inset
+
+ and (only) 
+\begin_inset Quotes eld
+\end_inset
+
+economists whose professional credentials are mediocre
+\begin_inset Quotes erd
+\end_inset
+
+ because they lack the imagination and creativity of the elite are guilty
+ of 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox suppression and narrow-mindedness
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "493"
+key "Colander_2004_Changing"
+
+\end_inset
+
+.
+ The mainstream then becomes whatever its elite is willing to accept, or
+ at least tolerate.
+ These ideas 
+\begin_inset Quotes eld
+\end_inset
+
+at the edge,
+\begin_inset Quotes erd
+\end_inset
+
+ including formerly heterodox ideas, become part of the mainstream when
+ they begin to appear in core reading lists at elite graduate programs.
+ Gradually, the new ideas that pass the test of time trickle down to undergradua
+te teaching, especially textbooks, and become part of mainstream 
+\begin_inset Quotes eld
+\end_inset
+
+orthodoxy.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "487"
+key "Colander_2004_Changing"
+
+\end_inset
+
+ use this term to describe ideas found in 
+\begin_inset Quotes eld
+\end_inset
+
+standard classifications,
+\begin_inset Quotes erd
+\end_inset
+
+ which are 
+\begin_inset Quotes eld
+\end_inset
+
+useful fictions
+\begin_inset Quotes erd
+\end_inset
+
+ to make the discipline comprehensible to 
+\begin_inset Quotes eld
+\end_inset
+
+students and non-specialists.
+\begin_inset Quotes erd
+\end_inset
+
+ Orthodoxy typically consists of ideas that have, over decades, made the
+ journey from the edge of the mainstream to elite graduate programs and
+ from there to textbooks used in undergraduate courses, often taught at
+ non-elite institutions and therefore presumably by more mediocre economists.
+\end_layout
+
+\begin_layout Standard
+This account easily can knock the legs out from under heterodox criticisms
+ of the mainstream.
+ Almost by definition, a penumbra of cutting-edge research surrounds an
+ obsolete economic orthodoxy, but because heterodox economists are – again,
+ almost by definition – absent from institutions where this penumbra is
+ most visible, they are unlikely even to be aware of such currents.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Colander_2004_Changing"
+
+\end_inset
+
+ do not discuss issues such as tokenism, which might bring isolated heterodox
+ economists into some elite programs but limit their influence precisely
+ because of their isolation and the appearance that elite programs are tolerant
+ of all kinds of ideas.
+ 
+\end_layout
+
+\end_inset
+
+ Furthermore, criticisms aimed at the core can easily be dismissed as being
+ off-target and addressing only a caricature of the mainstream, while criticisms
+ aimed at ideas in the penumbra may be dismissed as either belonging to
+ the penumbra itself, and therefore themselves mainstream although not necessari
+ly candidates for future orthodoxy, or as being addressed at a small, unrepresen
+tative part of the mainstream.
+ Because of the long time needed for ideas to move from the edge to orthodoxy,
+ in their own educations heterodox economists are likely to have been exposed
+ to the now-obsolete orthodoxy, became disenchanted with it, and then moved
+ on to focus on heterodox research, paying little attention to 
+\begin_inset Quotes eld
+\end_inset
+
+edge
+\begin_inset Quotes erd
+\end_inset
+
+ ideas appearing in the penumbra.
+\end_layout
+
+\begin_layout Standard
+Accordingly, 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "485"
+key "Colander_2004_Changing"
+
+\end_inset
+
+ claim mainstream economics is currently moving away from neoclassical economics
+, which they characterize as having three defining characteristics: rationality,
+ selfishness, and equilibrium; instead, they believe the mainstream is moving
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+a more eclectic position
+\begin_inset Quotes erd
+\end_inset
+
+ of purposeful behavior, enlightened self-interest, and sustainability.
+ The only unifying thread is that, at its core, mainstream economics is
+ 
+\begin_inset Quotes eld
+\end_inset
+
+loosely held together by its modeling approach to economic problems.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Colander_2004_Changing"
+
+\end_inset
+
+do not elaborate on or explain what they mean by purposeful behavior, enlightene
+d self-interest.
+ And while they discuss some changes in the mathematics used in mainstream
+ models, they do not consider the possibility that mainstream models may
+ be only mathematical, rather than say an architect's physical model, or
+ the mainstream's underlying philosophy, which heterodox economists often
+ characterize as a form of deductive empiricism 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peck_2015_Navigating"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+xxxxx
+\end_layout
+
+\begin_layout Standard
+not entirely commensurable.
+\end_layout
+
+\begin_layout Standard
+The extent of heterodox economics is subject to some debate (
+\begin_inset CommandInset citation
+LatexCommand citealp
+before "see"
+key "mearman2010whatis"
+
+\end_inset
+
+and the references cited therein).
+ Most fundamentally, the 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ designation signals an apostate opposition to mainstream orthodoxy.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "17"
+key "King_2013_case"
+
+\end_inset
+
+provides evidence that economics is unique among social sciences in that
+ it has a 
+\begin_inset Quotes eld
+\end_inset
+
+monolithic mainstream which is either unaware of or actively hostile to
+ alternative approaches.
+\begin_inset Quotes erd
+\end_inset
+
+ But exactly what constitutes orthodoxy and its opposition varies.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Backhouse_2000_Progress"
+
+\end_inset
+
+, for example, proposes that members of any 
+\begin_inset Quotes eld
+\end_inset
+
+school
+\begin_inset Quotes erd
+\end_inset
+
+ must self-identify, have their own sociological ties and institutions,
+ and share core beliefs.
+ For a school to be 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox,
+\begin_inset Quotes erd
+\end_inset
+
+ the core beliefs must be at odds with the mainstream.
+ This, and similar definitions, lead to the problematic result of an eclectic
+ set of identifiable heterodox schools with 
+\begin_inset Quotes eld
+\end_inset
+
+immense variety
+\begin_inset Quotes erd
+\end_inset
+
+ among themselves and having few characteristics in common.
+ This can make for strange bedfellows, as when the libertarian Austrian
+ school and the socialist Marxian school are lumped together as 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox.
+\begin_inset Quotes erd
+\end_inset
+
+ Such a broad definition can dilute the meaning of 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ and weakens its critical potential against the mainstream 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Moreover, mainstream 
+\begin_inset Quotes eld
+\end_inset
+
+core beliefs
+\begin_inset Quotes erd
+\end_inset
+
+ are not always easy to identify, and mainstream economists may hold varying
+ core beliefs.
+ And even when they share a belief in practice, they may differ in how they
+ view it (e.g., some may view individual rationality as an actual characteristic
+ of human decision-making while others may view it simply as a useful assumption
+).
+ This leads some to define the mainstream narrowly, strictly as neoclassical
+ economics.
+ Ironically, this leaves room for pointing to the mainstream's acceptance
+ of non-neoclassical approaches, including some allegedly 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ ones, resulting in claims that the mainstream itself is heterodox (
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Colander_2009_Moving"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Coyle_2010_Soulful"
+
+\end_inset
+
+, cited by 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+).
+ This in turn deprives the label 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ of most useful distinctions or meanings.
+\end_layout
+
+\begin_layout Standard
+But 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "3"
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+ points out that while the mainstream may have expanded beyond the bounds
+ of neoclassicism, as historically defined, the approaches it has embraced
+ do not systematically reject the mainstream assumptions of methodological
+ individualism and markets causing systemic stability.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Besides methodological individualism and systemic stability, one should
+ add ontological atomism and a positivist variant of systematic empiricism.
+\end_layout
+
+\end_inset
+
+ Consequently, neoclassical marginalism continues to be the basis of mainstream
+ economics education.
+ Neither do any of the approaches welcomed into the mainstream challenge
+ its enthusiastic, or at least sanguine, political-ideological uncritical
+ approval of capitalism.
+\end_layout
+
+\begin_layout Standard
+For this reason, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+ advocates a self-consciously political 
+\end_layout
+
+\begin_layout Standard
+Although most commonly designating some amalgam of approaches commonly critical
+ of capitalism – such as Marxist, Keynesian, and Post-Keynesian economics
+ – some authors include rather conservative, pro-capitalist approaches,
+ such as Austrian, behavioral, and new institutional economics (need reference).
+\end_layout
+
+\begin_layout Standard
+scope 
+\end_layout
+
+\begin_layout Subsubsection
+Heterodox Economics
+\end_layout
+
+\begin_layout Standard
+One indicator of its size is 
+\end_layout
+
+\begin_layout Standard
+xxx
+\end_layout
+
+\begin_layout Standard
+The 1970's and early 1980's witnessed the birth of geographical political
+ economy, as urban and economic geography underwent a radical transformation,
+ increasingly rejecting 
+\begin_inset Quotes eld
+\end_inset
+
+spatial science
+\begin_inset Quotes erd
+\end_inset
+
+ rooted in neoclassical economics and turning instead to geographical approaches
+ related to various strains of heterodox economics, particularly Marxist,
+ institutionalist, Keynesian, and neo-Ricardian variants 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sheppard2011geographical"
+
+\end_inset
+
+.
+ In contrast to neoclassical economics, with its methodological individualism
+ and consequent microeconomic focus on individual behavior, these heterodox
+ strains emphasized societal structures, social relations, and institutions,
+ leading to a more macroeconomic form of analysis.
+ David Harvey's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "harvey1978theurban,harvey2006thelimits"
+
+\end_inset
+
+ work was extraordinarily seminal in this transformation, inspiring new
+ areas in economic and urban geography, such as the geography of money and
+ finance 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "leyshon_limits_2004"
+
+\end_inset
+
+.
+ On the other side, and particularly in the U.S., a small-but-prominent group
+ of heterodox economists – such as Ann Markusen, Barry Bluestone, Bennett
+ Harrison, David Gordon, and Matthew Edel – brought heterodox economic theory
+ to bear on the concerns of urban and economic geography, and in the process
+ transformed heterodox economic analysis itself by making the spatial dimension
+ a fundamental component.
+\end_layout
+
+\begin_layout Standard
+But in the following decades heterodox economics and critical urban and
+ economic geography drifted far apart.
+ By 2009, when the AAG designated Paul Krugman 
+\begin_inset Quotes eld
+\end_inset
+
+an honorary geographer
+\begin_inset Quotes erd
+\end_inset
+
+ for his theoretical work on geographical trade patterns and the subsequent
+ research it spawned, the isolation from each other of these two related
+ fields of critical scholarship was almost complete.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_whats_1998"
+
+\end_inset
+
+ described this 
+\begin_inset Quotes eld
+\end_inset
+
+new economic geography
+\begin_inset Quotes erd
+\end_inset
+
+ as one employing models that are 
+\begin_inset Quotes eld
+\end_inset
+
+fully general-equilibrium and clearly derive aggregate behaviour from individual
+ maximization.
+\begin_inset Quotes erd
+\end_inset
+
+ In other words, as unabashedly mainstream and largely neoclassical.
+ In a paper delivered at an AAG plenary, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_new_2011"
+
+\end_inset
+
+ recognized the distance between mainstream economics and economic geography,
+ attributing it to differences in methodology, questions asked, and kinds
+ of answers sought, while totally ignoring heterodox critiques of these
+ features of mainstream economics.
+\end_layout
+
+\begin_layout Standard
+Today heterodox economics and critical urban/economic geography exist in
+ almost complete isolation from one another.
+ For example, the index of a collection claiming to serve 
+\begin_inset Quotes eld
+\end_inset
+
+as the foundation for understanding the structural and deep-seated nature
+ of current macroeconomic events
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldstein2009heterodox"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Geographers have been equally insular.
+ For example, 
+\end_layout
+
+\begin_layout Standard
+headings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

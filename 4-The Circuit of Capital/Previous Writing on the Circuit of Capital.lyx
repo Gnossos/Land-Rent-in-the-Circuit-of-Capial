@@ -1,0 +1,993 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[utf8]{inputenc}
+
+% My Memoir customizations
+\usepackage[noFPauthor]{myMemoir}% See myMemoir for other options
+\author{\myName}
+
+% Customizations for this article
+\title{Ground Rent in the Circuit of Capital}
+\subtitle{Some Stock-Flow Consistent Models Combining Heterodox Economics and Geographical Political Geography}
+\date{\today}% Change to an actual date if you wish
+\acknowledge{Thanks to Antoine Godin, Russell Standish, and Steve Keen for helping me use the software packages they developed, including at times revising the software to better meet my needs.}
+
+% Revision information.
+\revstring{Ver. 1.0, initial version (08/23/2016)}
+
+% Redefine (Memoir's & Epigraph package) epigraph width
+%	This is set in myMemoir, but you can reset it here.
+\setlength{\epigraphwidth}{.65\linewidth}
+
+% Bibliography stuff
+\addbibresource{References.bib}
+
+% Bibliography Options (I can't get bookseries to work)
+\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,compresspages}
+%\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,bookseries=false,compresspages}
+
+% Cosmetics
+\setbeforesecskip{-2em}
+\setbeforesubsecskip{-2em}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language american
+\language_package auto
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Title goes here"
+\pdf_author "Marshall M. A. Feldman"
+\pdf_subject "Summary of the subject"
+\pdf_keywords "spatiality, geography, planning, Edward W. Soja, UCLA"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Epigraph
+\SpecialChar ldots
+ houses were generally built to order and the payments made in installments
+ to the contractor as certain stages of the building were being completed.
+ Very little was built on speculation.
+ \SpecialChar ldots
+In the last forty years all that has changed.
+ Very little is now built to order.
+ Anyone wanting a new house picks one from among those built on speculation
+ or still in process of construction.
+ The builder no longer works for his customers but for the market.
+ \SpecialChar ldots
+ Without speculative building, and on a large scale at that, no contractor
+ can get along today.
+ The profit from just building is extremely small.
+ His main profit comes from raising the ground-rent, from careful selection
+ and skilled 
+\lang british
+utilisation
+\lang american
+ of the building terrain.
+ \SpecialChar ldots
+ The execution of enterprises requiring working periods of considerable
+ length and operations on a large scale does not fall fully within the province
+ of capitalist production until the concentration of capital becomes very
+ pronounced, and the development expedient of advancing and thus risking
+ other people's capital instead of his own.
+ 
+\begin_inset Argument post:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+after "234"
+key "marx1967capital"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The passage quoted above appears in Volume II of Karl Marx's 
+\emph on
+Capital
+\emph default
+, Chapter 12, 
+\begin_inset Quotes eld
+\end_inset
+
+The Working Period.
+\begin_inset Quotes erd
+\end_inset
+
+ Immediately before the passage, Marx argues that both the time needed to
+ produce a commodity and the amount of capital tied up while it is being
+ produced decrease the velocity of turnover and therefore, other things
+ being equal, the profit rate.
+ Therefore, production of such items is rarely done capitalistically.
+ In the passage quoted above, Marx identifies important changes in London
+ house-building during the first half of the nineteenth century that allowed
+ capitalist production of private houses to become widespread.
+ He astutely identifies characteristics of the nascent system that today
+ are common in many countries and, in several, have become dominant, defining
+ features of the production of the built environment, including not only
+ private housing for owner-occupancy but also housing for other housing
+ tenures and building for non-residential uses.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See, for example, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "wissoker2016putting"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "wissoker2016putting"
+
+\end_inset
+
+excellent study of changes in the U.S.
+ home-building industry between 1990 and 2007.
+ All the salient features Marx mentions are present.
+ Wissoker enumerates numerous competitive advantages afforded by large scale
+ and oligopolistic dominance in metropolitan markets, including use of such
+ advantages to obtain prime land.
+ Builders both built houses and bought up just land on speculation.
+ Wissoker cites estimates of speculative building and purchasing reaching
+ as high as 33% for outright speculation, with even more built speculatively
+ for market.
+ So that at least two million surplus home were on the market at the end
+ of the period.
+ Builders also supplemented profits with land-rent, but they also employed
+ devices Marx never mentions, such as using options on land pending regulatory
+ approval, to reduce the time capital is tied up.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Perhaps even more significant, this passage is the 
+\emph on
+only
+\emph default
+ place in all of Volume II of 
+\emph on
+Capital
+\emph default
+, which focuses on the circulation of capital, where Marx includes land-rent.
+ If land-rent is absent from this volume, one might infer that Marx deemed
+ land-rent to be largely irrelevant to the circulation of capital.
+ Indeed, most authors building on Marx's writing on land-rent draw on Volume
+ III of 
+\emph on
+Capital
+\emph default
+, especially Parts VI and VII, and various other writing, especially sections
+ of 
+\emph on
+Theories of Surplus Value
+\emph default
+ (?? cite a source or 2).
+ But these sections deal with 
+\emph on
+mechanisms
+\emph default
+ 
+\emph on
+determining
+\emph default
+ 
+\emph on
+the magnitude of land-rent and allowing its extraction
+\emph default
+.
+ They do not really deal with 
+\emph on
+how land-rent affects the larger economy
+\emph default
+ or, more generally, land-rent's 
+\emph on
+relation
+\emph default
+ to the larger economy.
+\end_layout
+
+\begin_layout Standard
+In recent article
+\end_layout
+
+\begin_layout Standard
+xxxxx
+\end_layout
+
+\begin_layout Standard
+Marx's circuit of capital is highly influential in heterodox theories of
+ non-equilibrium dynamics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "freeman1996marxand"
+
+\end_inset
+
+, the monetary circuit 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "e.g.,"
+key "trigg2004marxand"
+
+\end_inset
+
+, and crises and financial instability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "rugitsky2014financialization"
+
+\end_inset
+
+.
+ Beyond the Marxist tradition itself, its influence can be found in the
+ work of such luminaries as Von Neumann (balanced growth), Leontief (input-outpu
+t), Sraffa (circulating capital), and Walras (general equilibrium) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jiang2014endogenous"
+
+\end_inset
+
+.
+ Yet all these branches ignore land-rent.
+ Land-rent is missing from mainstream economics, aside from the somewhat
+ peripheral subfield of urban economics, which mainly deals with microeconomics;
+ in heterodox economics, with the exception of a few neo-Ricardians, land-rent
+ has also been largely ignored 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hudson_incorporating_2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Outside economics, particularly in geographical political economy and critical
+ urban studies it has been extremely influential, largely through David
+ Harvey's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "harvey2006thelimits"
+
+\end_inset
+
+ landmark 
+\emph on
+Limits to Capital
+\emph default
+ and subsequent work.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sheppard2011geographical"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "545"
+key "author_year_title2"
+
+\end_inset
+
+says 
+\emph on
+Limits
+\emph default
+ has provided a foundation for all his subsequent wor
+\size normal
+k
+\emph on
+.
+
+\emph default
+ 
+\end_layout
+
+\end_inset
+
+ Among the various topics Harvey covers in this ambitious work, it is fair
+ to say Marx's circuit of capital is the most important organizing theme.
+ In particular, Harvey's thesis of capital switching into a 
+\begin_inset Quotes eld
+\end_inset
+
+secondary circuit
+\begin_inset Quotes erd
+\end_inset
+
+ consisting mainly of investment in the built environment has been extremely
+ influential 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2011revisiting"
+
+\end_inset
+
+.
+ Yet while land-rent has important implications for Harvey's thesis, this
+ promise has not been fulfilled.
+ In fact, over the past three decades geographical political economy and
+ critical urban studies have also largely ignored land-rent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "christophers2016forreal"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+xxxx
+\end_layout
+
+\begin_layout Standard
+Despite this literature's extraordinary scope, 
+\emph on
+land rent
+\emph default
+ is conspicuously absent, and a number of reasons this absence is quite
+ remarkable.
+\end_layout
+
+\begin_layout Standard
+xxxx
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Indeed, elsewhere in the volume, Marx either treats land-rent as incidental
+ or he explicitly rejects its relevance because it is only part of total
+ surplus value.
+ Thus, he uses land-rent as an example of the kind of fixed, short-term
+ obligations that capitalists in industries with unavoidably long working
+ periods, such as seasonal agriculture, must devise ways to cover while
+ awaiting sale of their products 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "marx1967capital"
+
+\end_inset
+
+(p.
+ 235).
+ When he considers how capitalists realize surplus value in the form of
+ a greater sum of money than what they originally advanced, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "marx1967capital"
+
+\end_inset
+
+ (pp.
+ 333-4) dismisses land-rent's relevance:
+\end_layout
+
+\begin_layout Quote
+\SpecialChar ldots
+ there are only two points of departure: the capitalist and the 
+\lang british
+labourer
+\lang american
+.
+ All third categories of persons must either receive money for their services
+ from these two classes or, to the extent that they receive it without any
+ services in return, they are joint owners of the surplus-value in the form
+ of rent, interest, etc.
+ That the surplus value does not all stay in the pocket of the industrial
+ capitalist but must be shared by him with other persons, has nothing to
+ do with the present question.
+ The question is how he turns his surplus-value into money, not how the
+ proceeds are later divided.
+\end_layout
+
+\begin_layout Standard
+Chapter 19 reviews previous work of others and makes frequent reference
+ to land-rent.
+ But most such references are either quotations from the original sources
+ or Marx's own comments about the sources in which he uses the term 
+\begin_inset Quotes eld
+\end_inset
+
+ground-rent
+\begin_inset Quotes erd
+\end_inset
+
+ as it is used in the original quotation.
+ He criticizes these sources, and his criticisms often maintain that ground-rent
+ is a distraction when considering the circulation of capital, sometimes
+ even merging it with the profit of industrial capital.
+ For example, when discussing Adam Smith's treatment of circulating capital
+ Marx notes that the circulating value has three parts: value of means of
+ production, value of labor-power, and a portion that is the 
+\begin_inset Quotes eld
+\end_inset
+
+source of 
+\emph on
+profits, including ground-rent
+\emph default
+, of the industrial capitalists \SpecialChar ldots
+
+\begin_inset Quotes erd
+\end_inset
+
+; he goes on to point out the value of means of production includes the
+ revenues of actors engaged in their production, including 
+\begin_inset Quotes eld
+\end_inset
+
+profits and 
+\emph on
+ground-rents for the capitalists
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ (p.
+ 368, emphasis added).
+ For Marx, surplus value, rather than its component parts, is the important
+ consideration in the circulation of capital, and 
+\begin_inset Quotes eld
+\end_inset
+
+the fact that the rent passes into the hands of the landlord is wholly immateria
+l for the question under consideration
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "371, also see p. 485"
+key "marx1967capital"
+
+\end_inset
+
+, and later on he expands the list of subdivisions of surplus value to include
+ not only profit and land-rent, but also interest, government spending,
+ rentier revenues, and 
+\begin_inset Quotes eld
+\end_inset
+
+unproductive 
+\lang british
+labourers
+\lang american
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "marx1967capital"
+
+\end_inset
+
+(p.
+ 421, 457).
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Elsewhere 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "484"
+key "marx1967capital"
+
+\end_inset
+
+ refers to landlords and moneylenders as 
+\begin_inset Quotes eld
+\end_inset
+
+idle capitalists.
+\begin_inset Quotes erd
+\end_inset
+
+ Engels edited Marx's drafts as the basis for Volume II, which was published
+ after Marx's death.
+ So perhaps too close of a reading is unwarranted.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+***
+\end_layout
+
+\begin_layout Standard
+The passage appears in a chapter devoted to 
+\begin_inset Quotes eld
+\end_inset
+
+The Working Period
+\begin_inset Quotes erd
+\end_inset
+
+: the time capital is tied up during a commodity's production (Chapter 12).
+ Immediately before the passage, Marx makes the points that, other things
+ being equal, longer working periods tie up more capital, as do production
+ processes involving larger capital investments.
+ Therefore, production of such things is not done capitalistically (i.e.,
+ for profit by sale in the market) until capitalism is sufficiently developed,
+ with capital highly concentrated in large firms and a mature credit system
+ in place.
+ To support this, he then uses house-building as an example.
+ To be competitive, builders must be large-scale and build speculatively.
+ Even so, the profit is insufficient to justify the capitalist builder's
+ investment unless the credit system allows the capitalist to externalize
+ risk and 
+\emph on
+land-rent augments profit
+\emph default
+ sufficiently to achieve a competitive return on investment.
+\end_layout
+
+\begin_layout Standard
+Immediately before this he discusses the duration 
+\end_layout
+
+\begin_layout Standard
+appears in of Volume II of 
+\emph on
+Capital
+\emph default
+.
+ Yet in the entire volume, the quoted passage provides the most extensive
+ discussion of land rent.
+\end_layout
+
+\begin_layout Standard
+xxx
+\end_layout
+
+\begin_layout Standard
+The passage from Marx quoted above describes an important change in the
+ system for creating the built environment under capitalism.
+ In the early nineteenth century, house-building was small scale; builders
+ primarily worked directly for home buyers; those who could afford to purchase
+ houses paid for the house in installments, and the payments came from their
+ saved revenue; buyers owned the land before building began, and builders
+ started building only if they already had a buyer; and the builder's profit
+ came mainly from constructing the building itself.
+ By as industrial capitalism changed, so too did the system.
+ Increasingly, building was done on a large scale; builders speculated and
+ built houses for market; financing was through credit; and the main source
+ of profit became appreciated land rent, rather than profit on building
+ the house itself.
+ Also, Marx's comment about risking other people's capital implies that
+ leverage was also becoming common.
+\end_layout
+
+\begin_layout Standard
+The features of this new system are recognizable today, but with a scale
+ and complexity that might shock even Marx.
+ The U.S.
+ is perhaps the best example of this system's extensive logic.
+ Although small scale, custom, owner-contracted building is still common,
+ large corporate builders increasingly dominate the U.S.
+ housing market 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wissoker2016putting"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+by no means universal, the system has become global, with the U.S.
+ being perhaps the most .
+ 
+\end_layout
+
+\begin_layout Standard
+In late eighteenth-century Britain, land-rent still had feudal vestiges.
+ Market forces were beginning to penetrate the realm of land ownership and
+ rent, but Britain's landed aristocracy still owned the preponderance of
+ land and collected rent from tenant farmers.
+ It is therefore unsurprising that David Ricardo's 
+\emph on
+Principles of Political Economy and Taxation
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+before "[1817]"
+key "ricardo1821onthe"
+
+\end_inset
+
+, justly famous for its pioneering work on land rent, mainly deals with
+ agrarian land rent.
+ But, as the passage above from Marx attests, by the mid-eighteenth century
+ this had changed, and an urban land nexus involving land rent, credit,
+ speculative investment, and concentration of capital was taking shape.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Urban land nexus
+\begin_inset Quotes erd
+\end_inset
+
+ here refers to a varying set of social, economic, political, and institutional
+ relations combined in particular places and times and that together create
+ a particular dynamic of urbanization and construction, destruction, and
+ use of the built environment.
+ This dynamic, in turn, both affects and is affected by the larger set of
+ relations that constitute what is commonly called the 
+\begin_inset Quotes eld
+\end_inset
+
+macroeconomy
+\begin_inset Quotes erd
+\end_inset
+
+ and, more generally, the social formation of which the urban land nexus
+ is part.
+ Allen Scott, I believe, first used the term in his book, 
+\emph on
+The Urban Land Nexus and the State
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+after "first published in 1980"
+key "scott2013theurban"
+
+\end_inset
+
+.
+ Interestingly, this seminal book largely ignores many things Marx mentions:
+ concentration of capital, credit, finance, money, and speculation; none
+ of these terms even appear in the book's index.
+ The book also treats the urban land nexus as a rather fixed and universal
+ feature of capitalism.
+ Compared to this, my usage is more fluid in the sense that the urban land
+ nexus differs over space and time within varieties of capitalism; my usage
+ also sees money, monetary systems, finance capital, the role of speculation,
+ etc.
+ as intrinsic elements of the urban land nexus.
+ In this sense, my usage comes close to what 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haila2016urbanland"
+
+\end_inset
+
+calls 
+\begin_inset Quotes eld
+\end_inset
+
+land regimes,
+\begin_inset Quotes erd
+\end_inset
+
+ except that she considers capitalism as a regime in itself, while I use
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+urban land nexus
+\begin_inset Quotes erd
+\end_inset
+
+ to denote something that takes varied form within capitalism.
+ Also see 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "theurillat2015thereal"
+
+\end_inset
+
+ for a similar concept, 
+\begin_inset Quotes eld
+\end_inset
+
+real estate systems.
+\begin_inset Quotes erd
+\end_inset
+
+ Again, my usage is less taxonomic and more concerned with developing theories
+ and methods for identifying the dynamics associated with different systems.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The same nexus of credit, land values, and speculation became common in
+ the United States 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "woods1979housing,davis2008therentprice,leamer2007housing,doan1997american,wissoker2016putting"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+was deeply implicated in the crises of 1819, 1837, 1857, 1873, the Great
+ Depression of the 1930's, the Savings and Loans Crisis of the late 1980's,
+ and, of course, the 
+\end_layout
+
+\begin_layout Standard
+In the Banking Crisis of 1819, credit from eastern banks funded frontier
+ land speculation until .
+ 
+\end_layout
+
+\begin_layout Standard
+The global financial crisis of 2007-2009 and its aftermath was the single
+ most important economic event in recent memory.
+ The U.S.
+ housing finance system was undeniably the epicenter of the crisis.
+ Between 2000 and the peak in 2007 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Use FRED data to identify the peak date and to calculate the increase
+\end_layout
+
+\end_inset
+
+, ..., But this was very uneven geographically, with some metropolitan areas
+ experiencing price increases over 80%, while prices actually declined in
+ other areas.
+ Neither suddenly increased demand – from growth in population or income
+ – nor suddenly constricted supply – due to resource constraints or increased
+ construction costs – accounted for the breathtaking price increase.
+ Instead, a staggering increase in debt accounted for the increase in house
+ prices, the lion's share of which was reflected in increased land prices.
+ Given the importance of the crisis, the geographic unevenness of the bubble,
+ and the concomitant impact on land values, one might think that 
+\emph on
+land rent
+\emph default
+ would become a central concern in academic research related to the crisis.
+\end_layout
+
+\begin_layout Standard
+Wrong! 
+\end_layout
+
+\begin_layout Standard
+This paper begins to fill a lacuna between heterodox economics and urban
+ political economy.
+ During the late 1970s these two fields of inquiry 
+\end_layout
+
+\begin_layout Standard
+Over the past four decades the former has made great strides in understanding
+ the macroeconomic dynamics of capitalism and its crises, whereas the latter
+ has generated substantial insights into the spatial organization of human
+ settlements under capitalism and its implications for capitalism's dynamics.
+\end_layout
+
+\begin_layout Standard
+Few disagree that the U.S.
+ housing finance system was the epicenter of the 2007-2009 financial crisis.
+ It is also widely accepted that mainstream economists not only failed to
+ predict the crisis, they actually celebrated 
+\begin_inset Quotes eld
+\end_inset
+
+the great moderation
+\begin_inset Quotes erd
+\end_inset
+
+ in the years leading up to it.
+ Even worse, they had no convincing, systematic explanations for it 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "krugman2009howdid,colander2009thefinancial"
+
+\end_inset
+
+.
+ In contrast, heterodox economists fared much better 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bezemer2009noone"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Although he is Karl Marx's 
+\end_layout
+
+\begin_layout Section*
+Unnumbered
+\end_layout
+
+\begin_layout Standard
+headings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

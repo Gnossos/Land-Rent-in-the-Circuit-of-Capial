@@ -1,0 +1,724 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage[utf8]{inputenc}
+
+% My Memoir customizations
+\usepackage[noFPauthor]{myMemoir}% See myMemoir for other options
+\author{\myName}
+
+% Customizations for this article
+\title{Ground Rent in the Circuit of Capital}
+\subtitle{Some Stock-Flow Consistent Models Combining Heterodox Economics and Geographical Political Geography}
+\date{\today}% Change to an actual date if you wish
+\acknowledge{Thanks to Antoine Godin, Russell Standish, and Steve Keen for helping me use the software packages they developed, including at times revising the software to better meet my needs.}
+
+% Revision information.
+\revstring{Ver. 1.0, initial version (08/23/2016)}
+
+% Redefine (Memoir's & Epigraph package) epigraph width
+%	This is set in myMemoir, but you can reset it here.
+\setlength{\epigraphwidth}{.65\linewidth}
+
+% Bibliography stuff
+\addbibresource{References.bib}
+
+% Bibliography Options (I can't get bookseries to work)
+\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,compresspages}
+%\ExecuteBibliographyOptions{doi=only,bookpages=false,isbn=false,bookseries=false,compresspages}
+
+% Cosmetics
+\setbeforesecskip{-2em}
+\setbeforesubsecskip{-2em}
+\end_preamble
+\options oneside,article, extrafontsizes, 10pt
+\use_default_options true
+\begin_modules
+biblatex
+enumitem
+sweave
+changebars
+fixme
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 60
+Provides natbib 1
+\end_local_layout
+\language american
+\language_package auto
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command biber
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Title goes here"
+\pdf_author "Marshall M. A. Feldman"
+\pdf_subject "Summary of the subject"
+\pdf_keywords "spatiality, geography, planning, Edward W. Soja, UCLA"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+With myMemoir, don't put title, etc.
+ in LyX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Concerns: isolation, neglect, exclusion
+\end_layout
+
+\begin_layout Standard
+As mentioned above, three concerns motivate this paper.
+ They are: (1) the isolation of heterodox economics and geographical political
+ economy from each other, (2) the neglect of land rent on both sides of
+ this divide, and (3) the almost complete exclusion of ground rent from
+ the heterodox economics literature on the circuit of capital and, conversely,
+ the almost complete exclusion of consideration of the circuit of capital
+ from the literature on ground rent in geographical political economy.
+ This section covers all three in some detail.
+\end_layout
+
+\begin_layout Subsection
+Isolation
+\end_layout
+
+\begin_layout Standard
+Despite numerous commonalities, heterodox economics (HE) and geographical
+ political economy (GPE) currently are remarkably isolated from each other.
+ As evidence, consider recent surveys and collections dealing with subjects
+ both HE and GPE address explicitly.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Using the past ten years to identify 
+\begin_inset Quotes eld
+\end_inset
+
+recent
+\begin_inset Quotes erd
+\end_inset
+
+ literature has the advantage of including a major subject of shared concern,
+ the global financial crisis that started in 2007.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, alluding to the 2007-2008 financial crisis, an edited collection
+ claims to serve 
+\begin_inset Quotes eld
+\end_inset
+
+as the foundation for understanding the structural and deep-seated nature
+ of current macroeconomic events
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "xviii"
+key "Goldstein_2009_Heterodox"
+
+\end_inset
+
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+the index of an edited collection claiming has no entries for 
+\begin_inset Quotes eld
+\end_inset
+
+built environment,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+capital switching,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+circuits of capital,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+cities,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+race,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+rent,
+\begin_inset Quotes erd
+\end_inset
+
+ and most other keywords found in discussions of the crisis by geographers.
+ Similarly, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Dumenil_2012_Crisis"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "Dumenil_2012_Crisis"
+
+\end_inset
+
+ review of heterodox explanations of the crisis follows Marx by distinguishing
+ between labor and capital, between finance capital and productive capital,
+ and between interest and profit; but despite the fact that house-price
+ inflation fueled the crisis and land is the prime candidate for house-price
+ inflation through ground-rent capitalization, the review does not even
+ mention what Marx considered the third major class of modern capitalism,
+ landlords, and their distinct source of revenue, ground rent.
+\end_layout
+
+\begin_layout Standard
+Geographers have been almost equally insular.
+ For example, a recent review of 
+\begin_inset Quotes eld
+\end_inset
+
+geographies of money and finance
+\begin_inset Quotes erd
+\end_inset
+
+ focusing on 
+\begin_inset Quotes eld
+\end_inset
+
+financial circuits and the ‘real’ economy
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hall_2013_Geographies"
+
+\end_inset
+
+ refers to no authors recognizable as economists of any sort, while the
+ closest it gets to recognizable economics journals are 
+\emph on
+The Economist
+\emph default
+ and 
+\emph on
+Financial Times
+\emph default
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Need another example or two.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+xxxx
+\end_layout
+
+\begin_layout Standard
+Before addressing the remarkable gulf that separates heterodox economics
+ and geographical political economy, some preliminary remarks about the
+ two sides of the divide will be helpful.
+ Economics and geography are both academic disciplines, and heterodox economics
+ and geographical political economy both represent subsets within their
+ respective disciplines.
+ Nonetheless, the subsets are not entirely commensurable.
+\end_layout
+
+\begin_layout Standard
+The extent of heterodox economics is subject to some debate (
+\begin_inset CommandInset citation
+LatexCommand citealp
+before "see"
+key "mearman2010whatis"
+
+\end_inset
+
+and the references cited therein).
+ Most fundamentally, the 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ designation signals an apostate opposition to mainstream orthodoxy.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "17"
+key "King_2013_case"
+
+\end_inset
+
+provides evidence that economics is unique among social sciences in that
+ it has a 
+\begin_inset Quotes eld
+\end_inset
+
+monolithic mainstream which is either unaware of or actively hostile to
+ alternative approaches.
+\begin_inset Quotes erd
+\end_inset
+
+ But exactly what constitutes orthodoxy and its opposition varies.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Backhouse_2000_Progress"
+
+\end_inset
+
+, for example, proposes that members of any 
+\begin_inset Quotes eld
+\end_inset
+
+school
+\begin_inset Quotes erd
+\end_inset
+
+ must self-identify, have their own sociological ties and institutions,
+ and share core beliefs.
+ For a school to be 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox,
+\begin_inset Quotes erd
+\end_inset
+
+ the core beliefs must be at odds with the mainstream.
+ This, and similar definitions, lead to the problematic result of an eclectic
+ set of identifiable heterodox schools with 
+\begin_inset Quotes eld
+\end_inset
+
+immense variety
+\begin_inset Quotes erd
+\end_inset
+
+ among themselves and having few characteristics in common.
+ This can make for strange bedfellows, as when the libertarian Austrian
+ school and the socialist Marxian school are lumped together as 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox.
+\begin_inset Quotes erd
+\end_inset
+
+ Such a broad definition can dilute the meaning of 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ and weakens its critical potential against the mainstream 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Moreover, mainstream 
+\begin_inset Quotes eld
+\end_inset
+
+core beliefs
+\begin_inset Quotes erd
+\end_inset
+
+ are not always easy to identify, and mainstream economists may hold varying
+ core beliefs.
+ And even when they share a belief in practice, they may differ in how they
+ view it (e.g., some may view individual rationality as an actual characteristic
+ of human decision-making while others may view it simply as a useful assumption
+).
+ This leads some to define the mainstream narrowly, strictly as neoclassical
+ economics.
+ Ironically, this leaves room for pointing to the mainstream's acceptance
+ of non-neoclassical approaches, including some allegedly 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ ones, resulting in claims that the mainstream itself is heterodox (
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Colander_2009_Moving"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Coyle_2010_Soulful"
+
+\end_inset
+
+, cited by 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+).
+ This in turn deprives the label 
+\begin_inset Quotes eld
+\end_inset
+
+heterodox
+\begin_inset Quotes erd
+\end_inset
+
+ of most useful distinctions or meanings.
+\end_layout
+
+\begin_layout Standard
+But 
+\begin_inset CommandInset citation
+LatexCommand citet
+after "3"
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+ points out that while the mainstream may have expanded beyond the bounds
+ of neoclassicism, as historically defined, the approaches it has embraced
+ do not systematically reject the mainstream assumptions of methodological
+ individualism and markets causing systemic stability.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Besides methodological individualism and systemic stability, one should
+ add ontological atomism and a positivist variant of systematic empiricism.
+\end_layout
+
+\end_inset
+
+ Consequently, neoclassical marginalism continues to be the basis of mainstream
+ economics education.
+ Neither do any of the approaches welcomed into the mainstream challenge
+ its enthusiastic, or at least sanguine, political-ideological uncritical
+ approval of capitalism.
+\end_layout
+
+\begin_layout Standard
+For this reason, 
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "Stillwell_2016_Heterodox"
+
+\end_inset
+
+ advocates a self-consciously political 
+\end_layout
+
+\begin_layout Standard
+Although most commonly designating some amalgam of approaches commonly critical
+ of capitalism – such as Marxist, Keynesian, and Post-Keynesian economics
+ – some authors include rather conservative, pro-capitalist approaches,
+ such as Austrian, behavioral, and new institutional economics (need reference).
+\end_layout
+
+\begin_layout Standard
+scope 
+\end_layout
+
+\begin_layout Subsubsection
+Heterodox Economics
+\end_layout
+
+\begin_layout Standard
+One indicator of its size is 
+\end_layout
+
+\begin_layout Standard
+xxx
+\end_layout
+
+\begin_layout Standard
+The 1970's and early 1980's witnessed the birth of geographical political
+ economy, as urban and economic geography underwent a radical transformation,
+ increasingly rejecting 
+\begin_inset Quotes eld
+\end_inset
+
+spatial science
+\begin_inset Quotes erd
+\end_inset
+
+ rooted in neoclassical economics and turning instead to geographical approaches
+ related to various strains of heterodox economics, particularly Marxist,
+ institutionalist, Keynesian, and neo-Ricardian variants 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sheppard2011geographical"
+
+\end_inset
+
+.
+ In contrast to neoclassical economics, with its methodological individualism
+ and consequent microeconomic focus on individual behavior, these heterodox
+ strains emphasized societal structures, social relations, and institutions,
+ leading to a more macroeconomic form of analysis.
+ David Harvey's 
+\begin_inset CommandInset citation
+LatexCommand citeyearpar
+key "harvey1978theurban,harvey2006thelimits"
+
+\end_inset
+
+ work was extraordinarily seminal in this transformation, inspiring new
+ areas in economic and urban geography, such as the geography of money and
+ finance 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "leyshon_limits_2004"
+
+\end_inset
+
+.
+ On the other side, and particularly in the U.S., a small-but-prominent group
+ of heterodox economists – such as Ann Markusen, Barry Bluestone, Bennett
+ Harrison, David Gordon, and Matthew Edel – brought heterodox economic theory
+ to bear on the concerns of urban and economic geography, and in the process
+ transformed heterodox economic analysis itself by making the spatial dimension
+ a fundamental component.
+\end_layout
+
+\begin_layout Standard
+But in the following decades heterodox economics and critical urban and
+ economic geography drifted far apart.
+ By 2009, when the AAG designated Paul Krugman 
+\begin_inset Quotes eld
+\end_inset
+
+an honorary geographer
+\begin_inset Quotes erd
+\end_inset
+
+ for his theoretical work on geographical trade patterns and the subsequent
+ research it spawned, the isolation from each other of these two related
+ fields of critical scholarship was almost complete.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_whats_1998"
+
+\end_inset
+
+ described this 
+\begin_inset Quotes eld
+\end_inset
+
+new economic geography
+\begin_inset Quotes erd
+\end_inset
+
+ as one employing models that are 
+\begin_inset Quotes eld
+\end_inset
+
+fully general-equilibrium and clearly derive aggregate behaviour from individual
+ maximization.
+\begin_inset Quotes erd
+\end_inset
+
+ In other words, as unabashedly mainstream and largely neoclassical.
+ In a paper delivered at an AAG plenary, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "krugman_new_2011"
+
+\end_inset
+
+ recognized the distance between mainstream economics and economic geography,
+ attributing it to differences in methodology, questions asked, and kinds
+ of answers sought, while totally ignoring heterodox critiques of these
+ features of mainstream economics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printbibliography[title={References}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
