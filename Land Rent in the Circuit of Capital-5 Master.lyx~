@@ -43,7 +43,7 @@ Provides natbib 1
 \font_tt_scale 100 100
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -52,6 +52,7 @@ Provides natbib 1
 \pdf_title "Land Rent in the Circuit of Capital: Time, Space, and Macroeconomic Geography"
 \pdf_author "Marshall M.A. Feldman"
 \pdf_subject "Macroeconomic Geography"
+\pdf_keywords "Geographical Political Economy, Circuit of Capital, Land Rent"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -109,7 +110,7 @@ Provides natbib 1
 
 \begin_layout Standard
 \begin_inset Note Comment
-status collapsed
+status open
 
 \begin_layout Plain Layout
 With myMemoir, don't put title, etc.
@@ -121,120 +122,18 @@ With myMemoir, don't put title, etc.
 
 \end_layout
 
-\begin_layout Abstract
-Despite claims that ground rent is 
-\begin_inset Quotes eld
-\end_inset
+\begin_layout Standard
 
-the primary conceptual vehicle
-\begin_inset Quotes erd
-\end_inset
-
- for incorporating geography into political economy 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "136"
-key "christophers2016forreal"
-
-\end_inset
-
-, ground rent and the macroeconomic logic of the capitalist space economy
- are out of fashion as theoretical concerns in contemporary geographic political
- economy 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "ward2016virtual,Peck_2016_Macroeconomic,sheppard2011geographical"
-
-\end_inset
-
-.
- Consequently, although ground rent played an obvious role triggering the
- socioeconomic crisis of the past decade, economic geography has contributed
- remarkably little to either our understanding of the macroeconomics of
- the crisis or policies to deal with its causes.
 \end_layout
 
-\begin_layout Abstract
-This paper introduces recent heterodox macroeconomic theory into geographic
- political economy and spatiality into formal heterodox macroeconomic theory.
- It does so by combining ground rent with the 
-\begin_inset Quotes eld
-\end_inset
-
-second-generation
-\begin_inset Quotes erd
-\end_inset
-
- synthesis of Marxian, Keynesian, and institutionalist macroeconomic political
- economy (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Goldstein_2009_Heterodox"
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "0-Abstract/Abstract.lyx"
 
 \end_inset
 
-; also see 
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "godley2012monetary"
 
-\end_inset
-
- and 
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "keen2011adynamic"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citeyear
-key "keen2013amonetary"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Abstract
-Most previous work on ground rent focuses on the mechanisms and institutions
- through which rent is extracted, but this paper takes ground rent as given
- and focuses on its macroeconomics.
- The paper first 
-\begin_inset Quotes eld
-\end_inset
-
-clears the air
-\begin_inset Quotes erd
-\end_inset
-
- by discussing heterodox economics and geographical political economy, methodolo
-gy, value, and ground rent.
- It then develops several exploratory, abductive simulation models, incrementall
-y incorporating different heterodox economic elements and forms of ground
- rent.
- The models build on Marx's circuit of capital but add post-Keynesian and
- institutionalist features, and they employ twenty-first century innovations,
- such as Foley's 
-\begin_inset CommandInset citation
-LatexCommand citeyearpar
-key "foley1982realization,foley1986understanding,foley2013profitrates"
-
-\end_inset
-
- dynamic disequilibrium models of the circuit and recent reinterpretations
- Marxian value theory 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "freeman2010trendsin"
-
-\end_inset
-
-.
- The goal is to develop a better understanding of the macroeconomics of
- ground rent that can inform research and policy in both heterodox economics
- and geographical political economy.
 \end_layout
 
 \begin_layout Standard
@@ -245,9 +144,39 @@ key "freeman2010trendsin"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+thefootnote}{
+\backslash
+roman{footnote}}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
-filename "Introduction/Introduction.lyx"
+filename "1-Introduction/Introduction.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Need to add EconomicGeography and HeterodoxEconomics
+\end_layout
 
 \end_inset
 
@@ -257,7 +186,20 @@ filename "Introduction/Introduction.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Land Rent/rent.lyx"
+filename "5-LandRent/rent.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Add Models, Conclusion, Notation Appendix
+\end_layout
 
 \end_inset
 

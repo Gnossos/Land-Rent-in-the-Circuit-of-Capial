@@ -6,11 +6,12 @@
 \origin unavailable
 \textclass memoir
 \begin_preamble
-\include{preamble}
+\input{../general-preamble}
+\input{../master-preamble}
 \end_preamble
 \options oneside,article, extrafontsizes, 10pt,latin9,utf8
 \use_default_options true
-\master Land Rent in the Circuit of Capital-4 Master.lyx
+\master ../Land Rent in the Circuit of Capital-5 Master.lyx
 \begin_modules
 biblatex
 enumitem
@@ -114,6 +115,26 @@ status collapsed
 \begin_layout Plain Layout
 With myMemoir, don't put title, etc.
  in LyX.
+ The ERT below is a temporary fix until I get home and can fix myMemoir.
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+thefootnote}{
+\backslash
+arabic{footnote}} 
+\backslash
+setcounter{footnote}{0}
 \end_layout
 
 \end_inset
@@ -228,37 +249,9 @@ key "levitin2012explaining"
 \end_inset
 
 .
- Because land prices are a major component of housing prices, generally
- believed to reflect capitalized streams of land rent, and the supply of
- land is relatively limited in the short term, land rent is the prime candidate
- for the lion's share of the house-price inflation.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-A common misunderstanding of land is that, as a use value, it cannot be
- created but is instead an inherently limited 
-\begin_inset Quotes eld
-\end_inset
-
-scarce resource
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "806"
-key "elden2010landterrain"
-
-\end_inset
-
-.
- I address this issue below.
-\end_layout
-
-\end_inset
-
+ Because land prices are a major component of housing prices and generally
+ believed to reflect capitalized streams of land rent, the latter is the
+ prime candidate for the lion's share of the house-price inflation.
  Indeed, this was the case (see Figure ??).
  So if land is 
 \begin_inset Quotes eld

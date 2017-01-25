@@ -8,6 +8,8 @@
 \begin_preamble
 \input{general-preamble}
 \input{master-preamble}
+% Bibliography stuff
+\addbibresource{References.bib}
 \end_preamble
 \options oneside,article, extrafontsizes, 10pt,latin9,utf8
 \use_default_options true
@@ -123,18 +125,6 @@ With myMemoir, don't put title, etc.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-myMemoir@titleblock
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -156,6 +146,23 @@ filename "0-Abstract/Abstract.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+thefootnote}{
+\backslash
+roman{footnote}}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "1-Introduction/Introduction.lyx"
@@ -181,7 +188,7 @@ Need to add EconomicGeography and HeterodoxEconomics
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "4-LandRent/rent.lyx"
+filename "5-LandRent/rent.lyx"
 
 \end_inset
 
